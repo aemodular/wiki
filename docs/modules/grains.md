@@ -1,5 +1,5 @@
 # GRAINS
-[[img|modules/images/grains.png|100]]
+[[img|modules/images/GRAINS.png|100]]
 
 [[https://www.tangiblewaves.com/store/p86/GRAINS.html | View Product Page]]
 

@@ -44,7 +44,7 @@ No matter which path you choose above, the following links will offer valuable i
 
 [[akai-mpcone-patchbay.md|Akai MPC One/AE Modular Patchbay]]
 
-[[https://easyeda.com/WonkyStuff/ae-blank-project| Base Schematic for your own circuit design, and templates for making your own PCBs/ Front Panels]]
+[[https://easyeda.com/WonkyStuff/ae-blank-project | Base Schematic for your own circuit design, and templates for making your own PCBs/ Front Panels]]
 
 There is also the DIY section of the AE Modular forum:-
 
