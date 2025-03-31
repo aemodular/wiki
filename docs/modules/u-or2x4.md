@@ -5,6 +5,6 @@
 
 This 1/3 height micro module provides the exact same functionality as the [[or2x4.md | OR2x4]] module in only one third of the size. Please see that wiki page for more info, patch suggestions.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
 
 Module power consumption: ? mA
