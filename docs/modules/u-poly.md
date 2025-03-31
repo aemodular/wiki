@@ -20,6 +20,8 @@ When controlled by IMDI, the possibilities are even more:
 * An LFO with adjustable rate and depth can be applied
 * All parameters can be controlled by MIDI controllers via the IMDI HEART module; over one single patch cable! (Regarding IMDI, see IMDI HEART for more info).
 
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+
 Module power consumption: 7...12 mA
 
 ## Inputs
