@@ -6,6 +6,8 @@
 
 This is a single envelope generator which can be switched between Attack/Release (AR) and Attack/Decay (AD) as well as linear or exponential output. The attack and decay (release) times can be between 0.01 and 60 seconds and can both be controlled via CV.
 
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+
 Module power consumption: ? mA
 
 ## Inputs
