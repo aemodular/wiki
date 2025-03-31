@@ -8,7 +8,7 @@ This 1/3 height micro module is jam packed with features such as:
 * Noise
 * Random clock
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
 
 Module power consumption: ? mA
 
