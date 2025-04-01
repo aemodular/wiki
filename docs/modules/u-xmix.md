@@ -10,6 +10,8 @@ The uXMIX is the small brother of the XMIX module. It's a combination of
 * an attenuator with fixed levels
 * an analog inverter
 
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+
 ## Inputs
 * **A1** - First input for the A mixer section (attenuated by the A1 knob)
 * **A2a** - Second input for the A mixer section (attenuated by the A2 knob)
