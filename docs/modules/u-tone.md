@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a two channel EQ which allows you to control the higher and lower frequency of the incoming signal. It is essentially one channel of the [[2tone.md | 2TONE ]] module.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
 
 Module power consumption: ? mA
 
