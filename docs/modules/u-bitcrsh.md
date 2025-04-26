@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a bit crushing effect to the incoming audio signal. The signal will be sampled into smaller segments and those segments can then be reduced and shuffled to achieve a degradation of the input signal.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
 
 Module power consumption: ? mA
 
