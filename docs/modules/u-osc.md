@@ -11,7 +11,7 @@ This micro module is a tiny, multifunctional oscillator module that offers a var
 * three different wavetables
 It offers knobs and CV control for pitch and shape (variations of the base waveform). Additionally, it can be controlled via IMDI and supports note/pitch, pitchbend, Assignable controller for shape and pitchbend range can be set via IMDI/MIDI by the specified controller message.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
 
 Module power consumption: ? mA
 
