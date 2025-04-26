@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a two independant channels for a signal amplifier which is very similar to the [[2signalamp.md | 2SIGNALAMP]] module.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
 
 Module power consumption: ? mA
 
