@@ -6,6 +6,8 @@
 
 This micro module is a two operator FM oscillator with either sinewaves or 4 other waveform combinatios which can produce a wide range of sounds. It can be controlled via CV or via MIDI when combined with IMDI HEART or Wonkystuff's mb/1 MIDI source modules.
 
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+
 Module power consumption: 7...12 mA
 
 ## Inputs
