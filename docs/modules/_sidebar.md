@@ -47,6 +47,7 @@
 * [faux cyrillic AEuroPi](modules/fauxcyrillic_aeuropi.md)
 * [faux cyrillic Coils](modules/fauxcyrillic_coils.md)
 * [faux cyrillic LFO++](modules/fauxcyrillic_lfo-plus-plus.md)
+* [faux cyrillic LFO--](modules/fauxcyrillic_lfo-minus-minus.md)
 * [faux cyrillic Pikocore](modules/fauxcyrillic_pikocore.md)
 * [faux cyrillic Resistance Is Futile](modules/fauxcyrillic_spatial-mixer.md)
 * [FILTERBANK914](modules/filterbank.md)
