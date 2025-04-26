@@ -5,7 +5,7 @@
 
 This 1/3 height micro module creates 2 outputs of  square waves, one and two octaves below the incoming signal. It also produces another output 2 octaves below the incoming signal with a Pulse wave. There is also a mix output where the levels of the additional sounds can be controlled and combined with the original signal.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
 
 Module power consumption: ? mA
 
