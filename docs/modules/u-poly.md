@@ -25,10 +25,10 @@ This module needs to be placed on a carrier for micro modules, like  [[u-base.md
 Module power consumption: 7...12 mA
 
 ## Inputs
-* **CV** - Sets the basic pitch of the generatoed chord, added to FREQ pot.
+* **CV** - Sets the basic pitch of the generated chord, added to FREQ pot.
 * **IMDI** - Input for MIDI signals, these should come from either the [[imdi-heart.md | IMDI HEART]] or the [[wonkystuff_mb1.md | Wonkystuff mb/1 modules]]. Many parameters of this module can only be controlled via MIDI.
 * **CHD** - CV to control the chord; with 1 volt change, all chords of the chosen scale (minor/major) are selected. The range of 1...2 volts repeats the chords, but in a higher range.
-* **CV2** - CV control for oscilaltor spread
+* **CV2** - CV control for oscillator spread
 
 ## Outputs
 * **OUT** - The sound output of the oscillator
@@ -36,12 +36,12 @@ Module power consumption: 7...12 mA
 
 ## Controls
 * **SCALE** (switch) - switches the CV controllable chord scale to major or minor
-* **SPREAD** (knob) - chooses the detune/spread of the oscillators per voice; when moved together with the MODE botton pressed, additional parameters can be set. (On some of the first modules, this was labelled as CHORD, but with the same function).
+* **SPREAD** (knob) - chooses the detune/spread of the oscillators per voice; when moved together with the MODE button pressed, additional parameters can be set. (On some of the first modules, this was labelled as CHORD, but with the same function).
 
   Depending on the chosen mode, following parameters are set:
   - Continuous chord (red LED): Add phaser/chorus
   - Paraphonic mode and IMDI mode: Select envelope shape (different combinations of attack/decay)
-* **FREQ** (knob) - selects the basic pitch; in IMDI mode, this acts only as fine tune, the actual pitchn is determined only by the played notes. When moved together with the MODE botton pressed, a bass note can be added (knob moved to the right half), if not in IMDI mode.
+* **FREQ** (knob) - selects the basic pitch; in IMDI mode, this acts only as fine tune, the actual pitch is determined only by the played notes. When moved together with the MODE button pressed, a bass note can be added (knob moved to the right half), if not in IMDI mode.
 * **MODE** (button) - selects the basic operation mode of the module; indicated by the LED color:
   - red: Continuous chord mode
   - green: Paraphonic mode with envelope; the IMDI input acts as GATE input. Without a gate signal patched, chords are played continuously same as in "red" mode. There is only one envelope that is applied to all voices in parallel. Decay happens when the last note is released.
@@ -75,7 +75,7 @@ The following MIDI controllers are used for controlling the modules operation:
 |123 |All notes off; resets note, pitchbend and gate out (if sub output is in gate mode)
 |RPN 0000|Set pitchbend range|
 
-By this, you have full control over the module behaviour e,g, when controlling from a DAW or a MIDI hardwdare controller
+By this, you have full control over the module behaviour e,g, when controlling from a DAW or a MIDI hardware controller
 
 ## Patch Suggestions
 Although quite powerful on its own, this module is best paired with and IMDI HEART or mb/1 module to receive MIDI messages to be played freely.
