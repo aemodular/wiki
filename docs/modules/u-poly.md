@@ -41,7 +41,7 @@ Module power consumption: 7...12 mA
   Depending on the chosen mode, following parameters are set:
   - Continuous chord (red LED): Add phaser/chorus
   - Paraphonic mode and IMDI mode: Select envelope shape (different combinations of attack/decay)
-* **FREQ** (knob) - selects the basic pitch; in IMDI mode, this acts only as fine tune, the actual pitchn is determined only by the played notes. When moved together with the MODE botton pressed, a bass note can be added (knob moved to the right half)
+* **FREQ** (knob) - selects the basic pitch; in IMDI mode, this acts only as fine tune, the actual pitchn is determined only by the played notes. When moved together with the MODE botton pressed, a bass note can be added (knob moved to the right half), if not in IMDI mode.
 * **MODE** (button) - selects the basic operation mode of the module; indicated by the LED color:
   - red: Continuous chord mode
   - green: Paraphonic mode with envelope; the IMDI input acts as GATE input. Without a gate signal patched, chords are played continuously same as in "red" mode. There is only one envelope that is applied to all voices in parallel. Decay happens when the last note is released.
