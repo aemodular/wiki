@@ -10,17 +10,20 @@ On the [[https://forum.aemodular.com | AE Modular Forum]] I'm known as @pol.
 # Links
 
 * [[https://patternsoflife.bandcamp.com/ | Bandcamp]]
-
+* [[https://www.youtube.com/@PatternsofLife | YouTube]]
+* [[https://www.soundclick.com/patternsoflife | SoundClick]]
 * [[https://soundcloud.com/patterns-of-life/sets/ae-modular | Soundcloud]] (AE Modular tracks)
 * [[https://www.amazon.com/Patterns-of-Life/e/B001LI5C26/digital/ref=ntt_mp3_rdr?_encoding=UTF8&sn=d | My first album on Amazon - Patterns of Life]]
+* [[https://beaucarnea.bandcamp.com/ | Collaboration with Maidonpoliris on Bandcamp]]
+* [[https://bsky.app/profile/rdjwilson.bsky.social | Bluesky]]
 
-%embed% https://www.youtube.com/watch?v=5Rq70seRs4E %%
+Video for a track I did for a Bandcamp compilation album:-
 
-My Youtube channel
+%embed% https://www.youtube.com/watch?v=XeQBdFAZ_Ak %%
 
-%embed% https://www.youtube.com/@PatternsofLife %%
+A recent track with a less "challenging" video:-
 
-
+%embed% https://www.youtube.com/watch?v=EgAW2NFk7vE %%
 
 # Studio
 
