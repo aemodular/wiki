@@ -10,10 +10,32 @@ I have programmed a lot of different music on my computer. Currently I haven’t
 
 ## Gear in my Studio
 
-* Starter Rack 2 
-* AKAI MINIAK synthesiser connected with the AE by Midi
-* Windows PC with “Presonous Firestudio Project” audio interface
-* Presonous Studio One DAW and Wavelab software 
-* EVE SC205 active monitor speakers
+- Starter Rack 2
+- SOLINA 
+- SLEW/EDGE 
+- ADSR
+- QUANTIZER
+- 2CVADD-HQ
+- DIODE FILTER
+- GRUNGE FILTER
+- 2SIGNALAMP
+- 4VCA
+- 2CVTOOL
+- MM-DIV
+- OR 2x4
+- DRUMKIT 010 R02
+- SD110
+- MM33+
+- KAESTL
+- RBSS
+- FADER, DISTRIBUTE, MULT, PEDAL, TIMER, RINGMOD, LED – own DIY modules
+
+- AKAI MINIAK synthesiser connected with the AE by Midi
+- KORG SQ-1 Sequencer
+- Windows PC with “Presonous Firestudio Project” audio interface
+- Presonous Studio One DAW and Wavelab software 
+- EVE SC205 active monitor speakers
+  
+In my room a have a lot of addition equipment like drum-set, Roland RD700 stage piano, Technics AX7 keyboard, Casio CZ-101 synth, Roland Aerophone Go, some guitars and bass guitars with amps and effects and much more. 
 
 In my room a have a lot of addition equipment like drum-set, Roland RD700 stage piano, Technics AX7 keyboard, Casio CZ-101 synth, some guitars and bass guitars with amps and effects and much more. 
