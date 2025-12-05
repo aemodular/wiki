@@ -58,6 +58,8 @@ Some of those artists are listed below, please visit their pages and enjoy their
 
 [[jbrandt.md|jbrandt]] - music from the burrow
 
+[[jcaspes.md|JcAspes]] - from Lyon, City of Electronic Music
+
 [[johntuffen.md|John Tuffen]] - aka Wonkystuff, Namke Communications and many more
 
 [[keurslagerkurt.md|Keurslager Kurt]] - DIY genius and Techno Extraordinaire
