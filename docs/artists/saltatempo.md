@@ -1,6 +1,6 @@
 # Saltatempo
 
-[[img|artists/images/saltatempo.jpg|400]]
+[[img|artists/images/saltatempo.jpg|600]]
 
 Hi people I'm saltatempo, I live in Italy with my wife and three young children, working as physics teacher for teenagers. I like watch the deep sky objects and similar with a Dobsonian telescope, and also play Capoeira. Clear skies with your sounds.
 
