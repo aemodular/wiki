@@ -11,7 +11,7 @@ Module power consumption: 20mA
 
 * **CV** - This takes a zero to 5V signal and sets the "mix" of the outputs accordingly, in the same manner as the **POS** knob, please see below. 
 * **Mixer in** - the next 4 sockets down the left hand side, marked going to a triangle pointing right with a plus sign in it.  To save needing external VCAs in certain applications &/or for use with CVs from other modules, these 4 inputs are combined to a signal  issued at:-
-* **MIX** (x3) - **Outputs** from the combination of whatever is plugged into the 4 sockets above.
+* **MIX** (x3) - **Outputs** from the combination of whatever is plugged into the 4 sockets above (The mixed signal is also INVERTED).
 
 ## Outputs
 
