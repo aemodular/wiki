@@ -1,5 +1,8 @@
 # BF-31 Endless Arpeggios: 5STEPS for AE
 
+![IMG20251230094130](https://github.com/user-attachments/assets/22f5aa77-29e8-4529-9a9f-80a57fd1337a)
+
+
 (formerly known as Kurt's Five Steps)
 
 This is a 5 step "arpeggiator", being modular it's a bit more complicated than that.
