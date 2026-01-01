@@ -44,5 +44,13 @@ On left (usually input) side
 
 The most obvious use to to provide CVs to multiple oscillators from a connected Midi keyboard, but applies for anytime you want the same pitch CV to go to more than one [[2oscd.md|oscillator]], (it can be good for that CV to go to a LFO module as well).
 
+If you want to manually choose between two signals (CV or audio, whatever) you have also this option:
+SIGNAL1 ---> 4BUFFER_in1 ---> 4BUFFER_out2 
+SIGNAL2 ---> 4BUFFER_in2 ---> 4BUFFER_out2
+Now you can manually choose by using the tiniy switch named "LINK1>2".
+Same with 3 and 4 inputs:
+SIGNAL3 ---> 4BUFFER_in3 ---> 4BUFFER_out4 
+SIGNAL3 ---> 4BUFFER_in4 ---> 4BUFFER_out4
+
 This module combines with other CV manipulation modules, e.g. [[2cvtool.md|2CVTOOL]] and [[slew-edge.md|SLEW/EDGE]].
 
