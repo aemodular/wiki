@@ -28,7 +28,7 @@ Module power consumption: 30 mA
 * **Switch CV** - switch between continous (CONT) and semitone quantized CV control
 * **FEEDBCK/FIX FREQ** - Potentiometer for setting modulator feedback (OPM switchn = FDB) or modulator fixed frequency (OPM switch = FIX) 
 * **Switch +2OCT** - When in high position, the pitch will be increased by 2 octaves
-* **MULTIPLIER** - Potentiometer to select the FM frequency ratio. Any CV control will be added to this setting.
+* **MULTIPLIER** - Potentiometer to select the FM frequency ratio. Any CV control will be added to this setting. In case of OPM = FDB the fixed frequency can be doubled, tripled with this knob (ringmodulator like sound)
 * **MOD DEPTH** - Potentiometer to select the depth of the modulation. Any CV control will be added to this setting. Turn it all the way to the left (set to 0) for pure basic waveform.
 * **Switch OPM** - switch the modulator operator mode between feedback (FDB) and fixed frequency (FIX)
 * **Button MODE/CONFIG** - Selects between 8 different basic waveforms for carrier and modulator; indicated by different LED colors.

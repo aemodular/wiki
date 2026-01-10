@@ -6,10 +6,9 @@
 
 Many AE modules have **Mult** sockets where you can combine or split signals. This isn't always reliable in terms of what the end result is, especially if you are wanting the output CV for pitch control. This is where the 4Buffer Module comes in.
 
-You can combine up to 4 signals (no mixer controls) or make a signal up to 8 separate outs. It can also do 2 separate input  pairs (i.e.  2 to 1), and 4 separate one input to two outputs.
+You can buffer separately up to 4 different signals or make a signal up to 8 separate outs. It can also do 2 separate input  pairs (i.e.  2 to 1).
 
-If you want to control the level of the inputs being combined then you need to look at the 4ATTMIX and Polamix modules.
-
+This module isn't a mixer so if you want to combine signals you need to look at the 4ATTMIX and Polamix modules.
 * [[polamix.md | POLAMIX]]
 * [[4attmix.md | 4ATTMIX]]
 * [[4attmix-fader.md | 4ATTMIXFADER]]
@@ -37,15 +36,16 @@ On left (usually input) side
 
 ## Controls
 
-* **Link 1-2** - This switch joins inputs 1 and 2 together, so outputs 1 and 2 carry the combined signal.
-* **Link  2-3** - This switch joins inputs 2 and 3 together, so outputs 2 and 3 carry the combined signal. If the Link 1-2 switch is also on then all 3 inputs are combined and sent to the three outputs.
-* **Link  3-4** - This switch joins inputs 3 and 4 together, so outputs 3 and 4 carry the combined signal. If Link 2-3 switch is also on, then inputs 2,3 & 4 are combined and sent to outputs 2,3 &4. If Link 1-2 is on as well as Link 2-3 then all 4 inputs are combined over all 8 outputs sockets.
+* **Link 1-2** - This switch routes input 1 to outputs 1 and 2.
+* **Link  2-3** - This switch routes input 2 to outputs 2 and 3. If the Link 1-2 switch is also on then the input 1 goes to outputs 1, 2 and 3.
+* **Link  3-4** - This switch routes input 3 to outputs 3 and 4. If Link 2-3 switch is also on, then input 2 goes to outputs 2,3 and 4. If Link 1-2 is on as well as Link 2-3 then the input 1 goes to all outputs.
 
 ## Patch Suggestions
 
 The most obvious use to to provide CVs to multiple oscillators from a connected Midi keyboard, but applies for anytime you want the same pitch CV to go to more than one [[2oscd.md|oscillator]], (it can be good for that CV to go to a LFO module as well).
 
-It can be used to mix any CVs together, saving your [[4attmix.md|4ATTMIX]] modules etc. Mixing CVs together is really useful where a module has one CV input. 
+If you want to manually choose between two signals (CV or audio, whatever) you have also this option:
+SIGNAL1 ---> 4BUFFER_in1 ---> 4BUFFER_out2; SIGNAL2 ---> 4BUFFER_in2 ---> 4BUFFER_out2. Now you can manually choose by using the tiny switch named "LINK1>2". Same with 3 and 4 inputs: SIGNAL3 ---> 4BUFFER_in3 ---> 4BUFFER_out4; SIGNAL3 ---> 4BUFFER_in4 ---> 4BUFFER_out4 .
 
 This module combines with other CV manipulation modules, e.g. [[2cvtool.md|2CVTOOL]] and [[slew-edge.md|SLEW/EDGE]].
 
