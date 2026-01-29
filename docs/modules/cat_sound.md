@@ -22,6 +22,7 @@ These modules emit audible sound signals, eg. from Oscillators, digital waveform
 * [µPOLY](modules/u-poly.md)
 * [µSH-RNDM-NOISE](modules/u-sh-rndm-noise.md)
 * [VCO](modules/vco.md)
+* [WAEVE 82](modules/waeve82.md)
 * [WAVETABLES](modules/wavetables.md)
 * [wonkystuff core1.æ](modules/wonkystuff_core1-ae.md)
 * [wonkystuff kæstle](modules/wonkystuff_kaestle.md)

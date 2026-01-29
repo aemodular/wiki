@@ -130,6 +130,7 @@
 * [USBPOWER](modules/usbpower.md)
 * [VCO](modules/vco.md)
 * [VMBRIDGE](modules/vmbridge.md)
+* [WAEVE 82](modules/waeve82.md)
 * [WASP FILTER](modules/wasp-filter.md)
 * [WAVEFOLDER](modules/wavefolder.md)
 * [WAVETABLES](modules/wavetables.md)
