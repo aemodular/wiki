@@ -11,7 +11,7 @@ But one fine day in a design museum, I discovered an inexpensive pocket operator
 
 Here is a video of a live Jam:
 
-%embed% https://youtu.be/Gzey1_nXPVc %%
+%embed% https://youtu.be/67tw05UuIBM %%
   
 # My Studio
 * AEModular Two 2x16 linked Rack with modules Connected to my home DENON Amplifier with a lot of HP :-) from HPAMP
