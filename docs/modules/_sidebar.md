@@ -139,7 +139,7 @@
 * [wonkystuff CVMx](modules/wonkystuff_cvmx.md)
 * [wonkystuff kæstle](modules/wonkystuff_kaestle.md)
 * [wonkystuff kæstle drum](modules/wonkystuff_kaestle_drum.md)
-* [wonkystuff kæstle drum](modules/wonkystuff_kaestle_arp.md)
+* [wonkystuff kæstle arp](modules/wonkystuff_kaestle_arp.md)
 * [wonkystuff ktkt](modules/wonkystuff_ktkt.md)
 * [wonkystuff mm33](modules/wonkystuff_mm33.md)
 * [wonkystuff mm33+](modules/wonkystuff_mm33_plus.md)
