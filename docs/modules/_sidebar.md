@@ -134,7 +134,7 @@
 * [WASP FILTER](/modules/wasp-filter.md)
 * [WAVEFOLDER](/modules/wavefolder.md)
 * [WAVETABLES](/modules/wavetables.md)
-* [wonkystuff &reg;](/modules/wonkystuff/)
+* [wonkystuff &reg; modules](/modules/wonkystuff/)
   * [2x4! &mu;Module](/modules/wonkystuff/2x4.md)
   * [bd55 &mu;Module](/modules/wonkystuff/bd55.md)
   * [BioT](/modules/wonkystuff/biot.md)
