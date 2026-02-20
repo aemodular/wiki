@@ -1,5 +1,5 @@
 # wonkystuff BioT
-[[img|modules/images/BioT-Panel.png|100]]
+[[img|/modules/images/BioT-Panel.png|100]]
 
 A touch plate for the AE Modular. You can buy the DIY kit from either of these websites:
 
