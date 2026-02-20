@@ -1,9 +1,7 @@
-# Wonkystuff&reg;
+# wonkystuff&reg;
 
 Back in September 2020, wonkystuff was the first 3rd-party maker of modules for the AE Modular system when the [mm33](/mm33.md]) was released.
-Since then many more modules have been made, including the pioneering MIDI-capable series (/now known as IMDI)
-
-The main store cane be found here: https://wonkystuff.co.uk/, whilst the EU-store can be found here:
+Since then many more modules have been made, including the pioneering MIDI-capable series (now known as IMDI) and a decent selection of drum voices!
 
 ## Catalogue
 
@@ -18,7 +16,6 @@ EU store (for tax purposes!):
 Legacy site, archive-only:
 
 * https://wonkystuff.net/
-
 
 ### Full-height modules:
 
