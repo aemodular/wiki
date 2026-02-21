@@ -1,6 +1,6 @@
 # Category: CV Generation / Manipulation
 
-Modules in this category generate or manipulate control voltages (CV) in some way or another. They make sound change, move and interesting.
+Modules in this category generate or manipulate control voltages (CV) in some way or another. These CV signals can then be used to make sound change, move, or mutate in interesting ways.
 
 * [2ATT/CV](/modules/2attcv.md)
 * [2CVADD-HQ](/modules/2cvadd-hq.md)
