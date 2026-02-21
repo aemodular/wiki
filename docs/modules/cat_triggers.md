@@ -19,5 +19,9 @@ Modules in this category create short pulses or triggers which are used to start
 * [TRIQ164](modules/triq164.md)
 * [µPROBAGATE](modules/u-probagate.md)
 * [µSH-RNDM-NOISE](modules/u-sh-rndm-noise.md)
-
-
+* [wonkystuff 2x4! &mu;Module](/modules/wonkystuff/2x4.md)
+* [wonkystuff core1.æ](/modules/wonkystuff/core1-ae.md)
+* [wonkystuff mmo &mu;Module](/modules/wonkystuff/mmo.md)
+* [wonkystuff mtr/8 &mu;Module](/modules/wonkystuff/mtr8.md)
+* [wonkystuff pgn/8 &mu;Module](/modules/wonkystuff/pgn8.md)
+* [wonkystuff rbss/2](/modules/wonkystuff/rbss_2.md)

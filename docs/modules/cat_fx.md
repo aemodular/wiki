@@ -17,5 +17,4 @@ Modules in this category apply interesting audio effects to an incoming signal, 
 * [µTONE](modules/u-tone.md)
 * [µWNDCMP](modules/u-wndcmp.md)
 * [WAVEFOLDER](modules/wavefolder.md)
-
-
+* [wonkystuff trm](/modules/wonkystuff/trm.md)

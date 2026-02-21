@@ -17,5 +17,7 @@ Modules in this category provide contact with the world outside a modular rack, 
 * [SEQ16](modules/seq16.md)
 * [STOMP I/O](modules/stomp-io.md)
 * [VMBRIDGE](modules/vmbridge.md)
+* [wonkystuff mi/mo &mu;Module](/modules/wonkystuff/mimo.md) (MIDI TRS I/O)
+
 
 

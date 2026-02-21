@@ -13,6 +13,3 @@ Modules in this category take incoming audio signals and apply frequency filters
 * [SVFILTER (STATE VARIABLE)](modules/sv-filter.md)
 * [TBD](modules/tbd.md)
 * [WASP FILTER](modules/wasp-filter.md)
-* [wonkystuff moco](modules/wonkystuff_moco.md)
-
-
