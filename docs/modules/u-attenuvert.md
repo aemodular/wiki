@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a single attenuverter function whereby you can offset an incoming signal and attenuate it at the same time.
 
-This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+[filename](../common/micro.md ':include')
 
 Module power consumption: ? mA
 
@@ -24,6 +24,6 @@ Module power consumption: ? mA
 
 ## Patch Suggestions
 
-This module is similar to the [[2cvtool.md| 2CVTOOL]] however it can only add the signal to an offset, not subtract from it. 
+This module is similar to the [[2cvtool.md| 2CVTOOL]] however it can only add the signal to an offset, not subtract from it.
 
 Nonetheless it is immensely useful for controlling pitch or filter modulations especially when the input signal is coming from a random source.

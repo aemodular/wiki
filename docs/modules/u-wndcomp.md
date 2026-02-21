@@ -6,7 +6,7 @@
 
 This module is a CV and Audio processor which creates gate signals when certain levels are reached by the input signal. These levels are defined as a "window" by an offset and window size (level). Gates are set to on when the input signal is either below, within or above the "window".
 
-This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+[filename](../common/micro.md ':include')
 
 ## Inputs
 * **IN** - The input signal, either CV or Audio

@@ -20,7 +20,7 @@ When controlled by IMDI, the possibilities are even more:
 * An LFO with adjustable rate and depth can be applied to the pitch to give a vibrato effect
 * All parameters can be controlled by MIDI controllers via the IMDI HEART module; over one single patch cable! (Regarding IMDI, see IMDI HEART for more info).
 
-This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+[filename](../common/micro.md ':include')
 
 Module power consumption: 7...12 mA
 
@@ -71,7 +71,7 @@ The following MIDI controllers are used for controlling the modules operation:
 |77|LFO depth|
 |76|LFO rate|
 |93|Phaser/Chorus mix (retained after module restart)|
-|121|Reset all controllers; all of the above settings are restored to initial values| 
+|121|Reset all controllers; all of the above settings are restored to initial values|
 |123 |All notes off; resets note, pitchbend and gate out (if sub output is in gate mode)
 |RPN 0000|Set pitchbend range|
 

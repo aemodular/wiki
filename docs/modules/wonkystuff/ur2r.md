@@ -9,9 +9,10 @@
 
 ## Overview
 
-[filename](common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Simple &mu;Module comprising a passive 'R2R' DAC, with raw, buffered and inverted outputs.  Inspired by an element of Matt Keubrich’s *Roundabout* [see here](https://github.com/MattKuebrich/roundabout). The [[/modules/wonkystuff/2x4.md|2x4!]] also takes inspiration from this source.
+
 
 ## Controls
 

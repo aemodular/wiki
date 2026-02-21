@@ -5,7 +5,7 @@
 
 This 1/2 height micro module provides a tiny mixer with 3 attenuated channels and 4 fixed channels.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+[filename](../common/micro.md ':include')
 
 Module power consumption: ? mA
 
@@ -29,4 +29,4 @@ Module power consumption: ? mA
 
 ## Patch Suggestions
 
-This can be used for Audio or CV mixing of signals and is very similar to the [[mixer4-4.md | MIXER 4-4]] module. 
+This can be used for Audio or CV mixing of signals and is very similar to the [[mixer4-4.md | MIXER 4-4]] module.
