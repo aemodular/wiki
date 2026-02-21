@@ -2,7 +2,7 @@
 
 [[img|/modules/images/kastle_arp.png|200]]
 
-* Width: 2 units
+* Module format: double-width, full height
 * Power consumption: ??mA
 
 [[https://wonkystuff.co.uk/kaestle-arp.html | View the shop page]]
