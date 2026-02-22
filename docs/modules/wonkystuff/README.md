@@ -27,12 +27,12 @@ Legacy site, archive-only:
 * [k&aelig;stle arp](/modules/wonkystuff/kaestle_arp.md) clone of the Bastl-Instruments kastle arp
 * [ktkt](/modules/wonkystuff/ktkt.md) contact microphone
 * [mb/1](/modules/wonkystuff/mb1.md) MIDI breakout (converting MIDI to IMDI)
-* [mm33](/modules/wonkystuff/mm33.md) 3x3 matrix mixer
+* [mm33 (disc)](/modules/wonkystuff/mm33.md) 3x3 matrix mixer
 * [mm33+](/modules/wonkystuff/mm33_plus.md) improved 3x3 matrix mixer
 * [moco](/modules/wonkystuff/moco.md) 4-output morph controller
 * [qvca](/modules/wonkystuff/qvca.md) quad audio VCA
 * [qvca v2](/modules/wonkystuff/qvca_2.md) improved quad audio VCA
-* [rbss](/modules/wonkystuff/rbss.md) random-bit-shift-sequencer (aka Turing Machine)
+* [rbss (disc)](/modules/wonkystuff/rbss.md) random-bit-shift-sequencer (aka Turing Machine)
 * [rbss/2](/modules/wonkystuff/rbss_2.md) improved rbss with gate outputs
 * [sd110](/modules/wonkystuff/sd110.md) DR-110 snare drum
 * [trm](/modules/wonkystuff/trm.md) transformer-based ring modulator
