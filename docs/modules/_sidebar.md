@@ -174,6 +174,7 @@
   * [&mu;mdx &mu;Module](/modules/wonkystuff/umdx.md)
   * [&mu;r2r &mu;Module](/modules/wonkystuff/ur2r.md)
   * [&mu;sd110](/modules/wonkystuff/usd110.md)
+  * [&mu;sr &mu;Module (disc)](/modules/wonkystuff/usr.md)
 * [XMIX](modules/tangiblewaves/xmix.md)
 
 

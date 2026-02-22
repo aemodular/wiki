@@ -40,3 +40,4 @@ These modules emit audible sound signals, eg. from Oscillators, digital waveform
 * [wonkystuff rs55 &mu;Module](/modules/wonkystuff/rs55.md)
 * [wonkystuff sd110](/modules/wonkystuff/sd110.md)
 * [wonkystuff &mu;sd110 &mu;Module](/modules/wonkystuff/usd110.md)
+* [&mu;sr &mu;Module (disc)](/modules/wonkystuff/usr.md)

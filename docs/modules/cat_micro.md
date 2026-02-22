@@ -45,3 +45,4 @@ The micro modules offer a way to cram a lot of functionality into a very small r
 * [wonkystuff &mu;mdx](/modules/wonkystuff/umdx.md)
 * [wonkystuff &mu;r2r](/modules/wonkystuff/ur2r.md)
 * [wonkystuff &mu;sd110](/modules/wonkystuff/usd110.md)
+* [&mu;sr (disc)](/modules/wonkystuff/usr.md)
