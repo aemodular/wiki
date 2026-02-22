@@ -5,17 +5,13 @@ Since then many more modules have been made, including the pioneering MIDI-capab
 
 ## Catalogue
 
-wonkystuff&reg; main store (worldwide, except Europe):
+wonkystuff&reg; main store (worldwide, except Europe): https://wonkystuff.co.uk/
 
-* https://wonkystuff.co.uk/
+EU store (for tax purposes!): https://lectronz.com/stores/wonkystuff
 
-EU store (for tax purposes!):
+Legacy site, archive-only: https://wonkystuff.net/
 
-* https://lectronz.com/stores/wonkystuff
-
-Legacy site, archive-only:
-
-* https://wonkystuff.net/
+Finally, the YouTube channel: https://youtube.com/c/wonkystuff
 
 ### Full-height modules:
 
