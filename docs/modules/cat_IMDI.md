@@ -4,8 +4,8 @@ IMDI is a form of interpreting MIDI signals which is special to the AE Modular s
 
 The modules in this category all either produce, transform, listen to or consume MIDI signals which may or may not conform to the IMDI specification.
 
-* [FMOS R2](modules/fmos_r2.md)
-* [IMDI HEART](modules/imdi-heart.md)
-* [µFM](modules/u-fm.md)
-* [µOSC](modules/u-osc.md)
-* [µPOLY](modules/u-poly.md)
+* [FMOS R2](modules/tangiblewaves/fmos_r2.md)
+* [IMDI HEART](modules/tangiblewaves/imdi-heart.md)
+* [µFM](modules/tangiblewaves/u-fm.md)
+* [µOSC](modules/tangiblewaves/u-osc.md)
+* [µPOLY](modules/tangiblewaves/u-poly.md)
