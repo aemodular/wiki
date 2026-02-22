@@ -6,7 +6,7 @@
 
 This 1/3 height micro module is a clone of the open/closed hihat voice from the Boss DR-110. The duration of the open-hihat is brought to a front-panel control for a bit of manual variation.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+[filename](../../common/micro.md ':include')
 
 # Video Tutorial and Patch suggestions
 

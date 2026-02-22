@@ -6,7 +6,7 @@
 
 This 1/3 height micro module is a Bass Drum cloned from the Boss DR-55. Decay and Pitch have been incorporated for increased flexibility.
 
-This module needs to be installed on the [[u-base.md | µBASE]] module!
+[filename](../../common/micro.md ':include')
 
 # Video Tutorial and Patch suggestions
 

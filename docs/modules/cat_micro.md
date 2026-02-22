@@ -22,7 +22,7 @@ The micro modules offer a way to cram a lot of functionality into a very small r
 * [µSIGAMP](modules/tangiblewaves/u-sigamp.md)
 * [µSUBOCTAVE](modules/tangiblewaves/u-suboctave.md)
 * [µTONE](modules/tangiblewaves/u-tone.md)
-* [µWNDCMP](modules/tangiblewaves/u-wndcmp.md)
+* [µWNDCOMP](modules/tangiblewaves/u-wndcomp.md)
 * [µXMIX](modules/tangiblewaves/u-xmix.md)
 * [wonkystuff bd55 µModule](modules/wonkystuff/wonkystuff_u_bd55.md)
 * [wonkystuff hh110 µModule](modules/wonkystuff/wonkystuff_u_hh110.md)
