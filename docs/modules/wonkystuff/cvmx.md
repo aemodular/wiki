@@ -70,3 +70,24 @@ CVMx is *highly* configurable, and has 32 configuration memories, which can be s
 In **settings mode** it is also possible to save the memory to an external device via System Exclusive (SysEx) messages. Choose **DUMP** to begin transmission.
 
 Reception of a SysEx dump (from another CVMx, or from a previously-dumped file) is started by selecting **RECV** and connecting a MIDI stream (via mi/mo or the MIDI thru socket of the mb/1 for example) to input *h*. When reception has successfully completed, CVMx will return to the overview screen.
+
+### SysEx format
+
+The SysEx data is formatted like this:
+
+`0xF0 0x00 0x22 0x13 0x00 0x02 <data> 0xF7`
+
+This breaks down as follows:
+
+SysEx start: `0xF0`
+
+Tangible Waves preamble: `0x00 0x22 0x13`
+
+Wonkystuff sub-id: `0x00`
+
+CVMx product ID: `0x02`
+
+data: lane configuration bytes are split into 4-bit nibbles (Further details TBA)
+
+SysEx end: `0xF7`
+
