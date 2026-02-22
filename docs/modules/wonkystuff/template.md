@@ -3,6 +3,7 @@
 [[img|/modules/images/2x4.png|200]]
 
 * Module format: micro-module
+* Module format: single-width, full height
 * Power consumption: ??mA
 
 [[https://wonkystuff.co.uk/2x4.html | View the shop page]]
