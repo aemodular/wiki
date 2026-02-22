@@ -4,10 +4,11 @@
 
 
 
-* Module format: micro-module
+* Module format: single-width, full height
 * Power consumption: 0mA (completely passive, no power connector)
 
 [[https://smallrocks.bandcamp.com/album/biot-touch-plate-demonstration-record | no longer available from Hot Air]]
+
 [[https://wonkystuff.net/product/biot-kit/ | no longer available from wonkystuff]]
 
 ## Overview
