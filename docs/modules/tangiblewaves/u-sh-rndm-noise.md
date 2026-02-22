@@ -8,7 +8,7 @@ This 1/3 height micro module is jam packed with features such as:
 * Noise
 * Random clock
 
-This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 
@@ -30,11 +30,11 @@ Module power consumption: ? mA
 
 * **T&H / S&H** Switch - changes the behaviour of either sampling the input and holding that voltage at the trigger point, or tracking the input when the trigger is positive; these cause very different CVs to be produced by the module from the same input.
 
-* **TAP / MODE** Button - tapping the button a few times sets the speed of the random value changes. 
+* **TAP / MODE** Button - tapping the button a few times sets the speed of the random value changes.
   * Tapping the button only one time: The random value output is updated when the input TRIG2 gets a trigger signal / it's synced to TRIG2 input.
   * **Mode display and changing:**
     * Holding the button displays the currently set mode:
-      * 1x: (audio) noise output 
+      * 1x: (audio) noise output
       * 2x: random CV
       * 3x: random CV, smoothed
       * To change the mode: Hold the button longer until the desired mode (= number of LED flashes) is displayed, then release the button. The mode and selected speed is saved when powered off.

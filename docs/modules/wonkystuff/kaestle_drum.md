@@ -1,4 +1,4 @@
-# wonkystuff kæstle drum
+# wonkystuff k&aelig;stle drum
 
 [[img|/modules/images/kastle_drum.png|200]]
 

@@ -1,0 +1,27 @@
+# Category: Trigger Generation and Manipulation
+
+Modules in this category create short pulses or triggers which are used to start events on other modules. Some modules also take triggers as an input and manipulate them in some ways.
+
+* [6TRIGBUTTON](/modules/tangiblewaves/6trigbutton.md)
+* [BEAT DIVIDER](/modules/tangiblewaves/midiclock-divider.md)
+* [BF Synth BF-31: 5STEPS for AE](/modules/bfsynth/bfsynth_bf31-fivesteps.md)
+* [CVSHIFTER](/modules/tangiblewaves/cvshifter.md)
+* [faux cyrillic AEuroPi](/modules/fauxcyrillic/fauxcyrillic_aeuropi.md)
+* [GRAINS](/modules/tangiblewaves/grains.md)
+* [HEARTBEAT](/modules/tangiblewaves/heartbeat.md)
+* [HEARTBEAT EXTENDER](/modules/tangiblewaves/heartbeat-extender.md)
+* [kyaa Euclid Grid](/modules/kyaa_euclidgrid.md)
+* [MIDICLOCK DIVIDER](/modules/tangiblewaves/midiclock-divider.md)
+* [MM-DIV](/modules/tangiblewaves/mm-div.md)
+* [STEP10 (disc.)](/modules/tangiblewaves/step10.md)
+* [TOPOGRAF](/modules/tangiblewaves/topograf.md)
+* [TRIP](/modules/tangiblewaves/trip.md)
+* [TRIQ164](/modules/tangiblewaves/triq164.md)
+* [µPROBAGATE](/modules/tangiblewaves/u-probagate.md)
+* [µSH-RNDM-NOISE](/modules/tangiblewaves/u-sh-rndm-noise.md)
+* [wonkystuff 2x4! &mu;Module](/modules/wonkystuff/2x4.md)
+* [wonkystuff core1.&aelig;](/modules/wonkystuff/core1-ae.md)
+* [wonkystuff mmo &mu;Module](/modules/wonkystuff/mmo.md)
+* [wonkystuff mtr/8 &mu;Module](/modules/wonkystuff/mtr8.md)
+* [wonkystuff pgn/8 &mu;Module](/modules/wonkystuff/pgn8.md)
+* [wonkystuff rbss/2](/modules/wonkystuff/rbss_2.md)

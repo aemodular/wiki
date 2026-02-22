@@ -1,4 +1,4 @@
-# wonkystuff kæstle
+# wonkystuff k&aelig;stle
 
 [[img|/modules/images/kastle.png|200]]
 

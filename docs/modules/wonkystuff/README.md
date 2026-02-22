@@ -20,11 +20,11 @@ Legacy site, archive-only:
 ### Full-height modules:
 
 * [BioT](/modules/wonkystuff/biot.md) 8-zone touch pad
-* [core1.æ](/modules/wonkystuff/core1-ae.md) lo-fi programmble device
+* [core1.&aelig;](/modules/wonkystuff/core1-ae.md) lo-fi programmble device
 * [CVMx](/modules/wonkystuff/cvmx.md) highly configurable CV to MIDI converter
-* [kæstle](/modules/wonkystuff/kaestle.md) clone of the Bastl-Instruments kastle
-* [kæstle drum](/modules/wonkystuff/kaestle_drum.md) clone of the Bastl-Instruments kastle drum
-* [kæstle arp](/modules/wonkystuff/kaestle_arp.md) clone of the Bastl-Instruments kastle arp
+* [k&aelig;stle](/modules/wonkystuff/kaestle.md) clone of the Bastl-Instruments kastle
+* [k&aelig;stle drum](/modules/wonkystuff/kaestle_drum.md) clone of the Bastl-Instruments kastle drum
+* [k&aelig;stle arp](/modules/wonkystuff/kaestle_arp.md) clone of the Bastl-Instruments kastle arp
 * [ktkt](/modules/wonkystuff/ktkt.md) contact microphone
 * [mb/1](/modules/wonkystuff/mb1.md) MIDI breakout (converting MIDI to IMDI)
 * [mm33](/modules/wonkystuff/mm33.md) 3x3 matrix mixer

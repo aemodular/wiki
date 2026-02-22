@@ -1,4 +1,4 @@
-# wonkystuff core1.æ
+# wonkystuff core1.&aelig;
 [[img|modules/images/coreae.png|100]]
 
 [[https://wonkystuff.net/product/core1-ae-v1-2-black/ | View Product Page]]
@@ -33,7 +33,7 @@ Module power consumption: 25mA
 
 ## Controls of the default dr1 firmware
 
-The core1.ae module comes with the dr1 firmware pre-installed. This is a complex oscillator which is really fun to play with and also gives you a selection of different waveforms. 
+The core1.ae module comes with the dr1 firmware pre-installed. This is a complex oscillator which is really fun to play with and also gives you a selection of different waveforms.
 
 **Outputs**
 
