@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a distortion effect for the incoming audio signal.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

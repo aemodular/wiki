@@ -5,11 +5,12 @@ IMDI is the name given to the use of the MIDI protocol within AE Modular, allowi
 Except where noted, the modules in this category are *consumers* of IMDI/MIDI signals.
 
 * Tangible Waves
-  * [FMOS R2](modules/fmos_r2.md)
-  * [IMDI HEART](modules/imdi-heart.md)
-  * [µFM](modules/u-fm.md)
-  * [µOSC](modules/u-osc.md)
-  * [µPOLY](modules/u-poly.md)
+  * Tangible Waves
+  * [FMOS R2](/modules/tangiblewaves/fmos_r2.md)
+    * [IMDI HEART](/modules/tangiblewaves/imdi-heart.md)
+    * [µFM](/modules/tangiblewaves/u-fm.md)
+    * [µOSC](/modules/tangiblewaves/u-osc.md)
+    * [µPOLY](/modules/tangiblewaves/u-poly.md)
 * wonkystuff&reg;
   * [CVMx](/modules/wonkystuff/cvmx.md) (generates IMDI from CV signals)
   * [mb/1](/modules/wonkystuff/mb1.md)

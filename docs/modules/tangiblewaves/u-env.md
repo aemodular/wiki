@@ -6,7 +6,7 @@
 
 This is a single envelope generator which can be switched between Attack/Release (AR) and Attack/Decay (AD) as well as linear or exponential output. The attack and decay (release) times can be between 0.01 and 60 seconds and can both be controlled via CV.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

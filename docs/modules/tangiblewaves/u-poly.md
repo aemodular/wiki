@@ -20,7 +20,7 @@ When controlled by IMDI, the possibilities are even more:
 * An LFO with adjustable rate and depth can be applied to the pitch to give a vibrato effect
 * All parameters can be controlled by MIDI controllers via the IMDI HEART module; over one single patch cable! (Regarding IMDI, see IMDI HEART for more info).
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: 7...12 mA
 

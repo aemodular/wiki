@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a single attenuverter function whereby you can offset an incoming signal and attenuate it at the same time.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

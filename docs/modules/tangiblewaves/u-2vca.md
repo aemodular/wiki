@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a two channel VCA similar to the [[4vca.md|4VCA]] module.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

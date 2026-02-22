@@ -5,7 +5,7 @@
 
 This 1/3 height micro module creates 2 outputs of  square waves, one and two octaves below the incoming signal. It also produces another output 2 octaves below the incoming signal with a Pulse wave. There is also a mix output where the levels of the additional sounds can be controlled and combined with the original signal.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

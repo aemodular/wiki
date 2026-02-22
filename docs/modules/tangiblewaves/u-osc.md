@@ -11,7 +11,7 @@ This micro module is a tiny, multifunctional oscillator module that offers a var
 * three different wavetables
 It offers knobs and CV control for pitch and shape (variations of the base waveform). Additionally, it can be controlled via IMDI and supports note/pitch, pitchbend, Assignable controller for shape and pitchbend range can be set via IMDI/MIDI by the specified controller message.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: 7...12 mA
 

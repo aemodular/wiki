@@ -5,6 +5,6 @@
 
 This 1/3 height micro module provides the exact same functionality as the [[or2x4.md | OR2x4]] module in only one third of the size. Please see that wiki page for more info, patch suggestions.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA

@@ -8,7 +8,7 @@ This 1/3 height micro module is jam packed with features such as:
 * Noise
 * Random clock
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

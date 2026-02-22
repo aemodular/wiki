@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a two independant channels for a signal amplifier which is very similar to the [[2signalamp.md | 2SIGNALAMP]] module.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

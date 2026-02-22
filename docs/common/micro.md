@@ -1,1 +1,1 @@
-!> This module needs to be installed in a &mu;Module base-module such as the [[/modules/wonkystuff/ubaselite.md | &mu;BaseLite]], [[/modules/u-base.md | µBASE]], or [[/modules/u-base_qs2.md | µBASE QS2]].
+!> This module needs to be installed in a &mu;Module base-module such as the [[/modules/tangiblewaves/u-base.md | µBASE]], [[/modules/tangiblewaves/u-base_qs2.md | µBASE QS2]], or [[/modules/wonkystuff/ubaselite.md | μBaseLite]].

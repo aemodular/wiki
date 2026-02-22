@@ -10,7 +10,7 @@ The uXMIX is the small brother of the XMIX module. It's a combination of
 * an attenuator with fixed levels
 * an analog inverter
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 ## Inputs
 * **A1** - First input for the A mixer section (attenuated by the A1 knob)

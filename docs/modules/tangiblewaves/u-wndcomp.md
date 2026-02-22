@@ -6,7 +6,7 @@
 
 This module is a CV and Audio processor which creates gate signals when certain levels are reached by the input signal. These levels are defined as a "window" by an offset and window size (level). Gates are set to on when the input signal is either below, within or above the "window".
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 ## Inputs
 * **IN** - The input signal, either CV or Audio

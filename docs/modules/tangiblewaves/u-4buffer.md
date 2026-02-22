@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a buffered 4 channel multiple. This can be used for multiplying cv, trigger and gate signals without voltage loss. One input signal will be routed to two duplicate outputs.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a two channel EQ which allows you to control the higher and lower frequency of the incoming signal. It is essentially one channel of the [[2tone.md | 2TONE ]] module.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

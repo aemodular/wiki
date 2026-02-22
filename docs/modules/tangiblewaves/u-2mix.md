@@ -5,7 +5,7 @@
 
 This 1/2 height micro module provides a tiny mixer with 3 attenuated channels and 4 fixed channels.
 
-[filename](../common/micro.md ':include')
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 

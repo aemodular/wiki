@@ -1,4 +1,4 @@
-# wonkystuff kæstle ARP — clone of the Bastl Kastle ARP
+# wonkystuff k&aelig;stle ARP — clone of the Bastl Kastle ARP
 
 [[img|/modules/images/kastle_arp.png|200]]
 
