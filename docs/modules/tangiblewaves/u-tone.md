@@ -5,7 +5,7 @@
 
 This 1/3 height micro module provides a two channel EQ which allows you to control the higher and lower frequency of the incoming signal. It is essentially one channel of the [[2tone.md | 2TONE ]] module.
 
-This module needs to be placed on a carrier for micro modules, like  [[u-base.md | µBASE]],  [[u-base_qs2.md | µBASE QS2]]!
+[filename](../../common/micro.md ':include')
 
 Module power consumption: ? mA
 
@@ -27,4 +27,4 @@ Module power consumption: ? mA
 
 This can be used as a simple EQ for your output signal, eg. in performances where you want to "fade" out the whole track by removing the low frequencies.
 
-The uTone can be made to self oscillate, a bit like a filter; the resultant sound can be processed through the rest of the AE like normal, filters and the [[AeManual/PHASER| Phaser]] module are recomended. 
+The uTone can be made to self oscillate, a bit like a filter; the resultant sound can be processed through the rest of the AE like normal, filters and the [[AeManual/PHASER| Phaser]] module are recomended.
