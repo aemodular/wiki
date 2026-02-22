@@ -10,7 +10,7 @@ Modules in this category create short pulses or triggers which are used to start
 * [GRAINS](/modules/tangiblewaves/grains.md)
 * [HEARTBEAT](/modules/tangiblewaves/heartbeat.md)
 * [HEARTBEAT EXTENDER](/modules/tangiblewaves/heartbeat-extender.md)
-* [kyaa Euclid Grid](/modules/kyaa_euclidgrid.md)
+* [kyaa Euclid Grid](/modules/kyaa/kyaa_euclidgrid.md)
 * [MIDICLOCK DIVIDER](/modules/tangiblewaves/midiclock-divider.md)
 * [MM-DIV](/modules/tangiblewaves/mm-div.md)
 * [STEP10 (disc.)](/modules/tangiblewaves/step10.md)
