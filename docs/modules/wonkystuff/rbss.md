@@ -1,5 +1,5 @@
-# wonkystuff RBSS
-[[img|modules/images/RBSS.png|100]]
+# wonkystuff rbss
+[[img|modules/images/rbss.png|100]]
 
 The rbss (random bit-shift sequencer) module is inspired by the famous "Turing Machine" Eurorack module by Music Thing Modular which in turn was inspired by many previous shift-register sequence generators.
 
@@ -9,7 +9,7 @@ When it is in stock, you can buy this module at [[https://wonkystuff.net/product
 
 ## Inputs
 
-* **clk in** - Every time there is a rising edge on the voltage in this input, the sequence shifts one step. This can be driven up to audio rates for some interesting noises! 
+* **clk in** - Every time there is a rising edge on the voltage in this input, the sequence shifts one step. This can be driven up to audio rates for some interesting noises!
 * **len cv** - The control voltage on this input is added to the control voltage from the front panel length control (so if the knob is fully clockwise, this voltage will have no effect)
 * **chance cv** - The control voltage on this input is added to the control voltage from the front panel chance control (so if the knob is fully clockwise, this voltage will have no effect)
 * **bus clk** - MIDI clock signal, via the master module.
@@ -28,7 +28,7 @@ When it is in stock, you can buy this module at [[https://wonkystuff.net/product
 
 ## Patch Suggestions
 
-You the clk out to trigger other modules, e.g. [[ seq8.md | SEQ8 ]] or [[ trip.md | TRIP ]] modules). 
+You the clk out to trigger other modules, e.g. [[ seq8.md | SEQ8 ]] or [[ trip.md | TRIP ]] modules).
 
 This video shows how you can use the RBSS together with the [[ seq16.md | SEQ16 ]] to create long evolving sequences.
 %embed% https://youtu.be/lQotLnLqgHA %%
