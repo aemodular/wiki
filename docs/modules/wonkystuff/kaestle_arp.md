@@ -1,6 +1,6 @@
 # wonkystuff k&aelig;stle ARP — clone of the Bastl Kastle ARP
 
-[[img|/modules/images/kastle_arp.png|200]]
+[[img|/modules/images/kastle-arp.png|200]]
 
 * Module format: double-width, full height
 * Power consumption: ??mA

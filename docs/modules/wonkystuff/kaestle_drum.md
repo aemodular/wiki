@@ -1,6 +1,6 @@
 # wonkystuff k&aelig;stle drum
 
-[[img|/modules/images/kastle_drum.png|200]]
+[[img|/modules/images/kastle-drum.png|200]]
 
 [[https://wonkystuff.co.uk/kaestle-drum.html | View the shop page]]
 
