@@ -1,6 +1,6 @@
 # wonkystuff qvca
 
-[[img|/modules/images/wsqvca.jpeg|100]]
+[[img|/modules/images/qvca.png|100]]
 
 This is quad VCA which is designed only for audio use (unlike the standard Tangible Waves [[2vca.md | 2VCA]] which can be applied to both audio and CV signals).
 
@@ -24,7 +24,7 @@ https://wonkystuff.net/product/qvca-black/  The current model with a black front
 
 ## Patch Suggestions
 
-This is a good module to do stereo with, as the panning can be CV controlled.  Send to the CV output of the left or right channel to the CV input of the channel doing the other side.  
+This is a good module to do stereo with, as the panning can be CV controlled.  Send to the CV output of the left or right channel to the CV input of the channel doing the other side.
 
 This feature can also be used to produce "Ducking". This is when a sound is reduced/removed when another sound plays. This is most often seen in radio/TV broadcasts when the announcer starts to speak the music will quieten. Like most effects it can be subtle or blatant.  Send the CV output of the sound you want to play to the CV input of the sound you want to quieten/silence. Fiddle with the levels/CVs to get the effect you want. In some cases you may need an attenuator/mixer or a module like the [[2cvtool.md | 2CVTOOL]]
 
