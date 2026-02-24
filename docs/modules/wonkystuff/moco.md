@@ -42,7 +42,7 @@ The markings to left of the outputs give a graphic representation of this delay/
 
 This module is based on the Doepfer A-144 (now discontinued) whose page can be found [[https://doepfer.de/a144.htm | here]]. This page has a users manual in English or German which is very detailed and useful.
 
-Wonkystuff have an excellent introductory video to this module:-
+Wonkystuff&reg; have an excellent introductory video to this module:-
 
 %embed% https://www.youtube.com/watch?v=5MWcSaScPGY %%
 
