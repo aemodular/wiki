@@ -60,7 +60,7 @@ Outputs are distinguished by having a white border; inputs are borderless.
 
 If you find this module a bit mind blowing at first, you may find the [original user manual](https://bastl-instruments.com/content/files/manual-kastle-drum-web.pdf) helpful — it has a bunch of internal info which might prove enlightening!
 
-Here's a short overview from [wonkystuff&reg;](https://youtube.com/@wonkystuff):
+Here's a short overview from the [wonkystuff&reg; YouTube channel](https://youtube.com/@wonkystuff):
 
 %embed% https://youtu.be/_pkOL4cmK_8 %%
 

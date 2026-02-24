@@ -48,7 +48,7 @@ As might be expected, connectivity is limited!
 
 # Related videos
 
-John from wonkystuff&reg; made a pair of videos describing the PCB layout of the *mmo*, as a beginners guide to future module builders:
+John from wonkystuff&reg; made a pair of videos on the [wonkystuff&reg; YouTube channel](https://youtube.com/@wonkystuff) describing the PCB layout of the *mmo*, as a beginners guide to future module builders:
 
 %embed% https://youtu.be/LfWHmPN24ys %%
 %embed% https://youtu.be/Fr0tgWV6pVw %%
