@@ -37,7 +37,7 @@ In *polychain mode*, it will sound the first note that is seen, and ignore all s
 
 ### Inputs
 
-* **i** - the IMDI input - connect this to the output of an IMDI generator (e.g. [[/modules/wonkystuff/mb1 | mb/1]], [[/modules/tangiblewaves/imdi-heart | IMDI Heart]], [[/modules/wonkystuff/umdx | &mu;mdx]], [[/modules/wonkystuff/cvmx | CVMx]], [[/modules/wonkystuff/mimo | mi/mo]] etc.)
+* **i** - the IMDI input - connect this to the channel output of an IMDI generator (e.g. [[/modules/wonkystuff/mb1 | mb/1]], [[/modules/tangiblewaves/imdi-heart | IMDI Heart]], [[/modules/wonkystuff/umdx | &mu;mdx]], [[/modules/wonkystuff/cvmx | CVMx]], [[/modules/wonkystuff/mimo | mi/mo]] etc.)
 
 ### Outputs
 
