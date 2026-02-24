@@ -67,6 +67,10 @@ The common AE "trick" of patching an output into another to mix them works well 
 
 This is a deceptively powerful module; you may find the [original user manual](https://bastl-instruments.com/content/files/manual-kastle-v1.5.pdf) helpful — it has a useful tips and tricks section as well as a fuller explanation of the synthesis modes (basically it is a must read!)
 
+Here's a short overview from [wonkystuff&reg;](https://youtube.com/@wonkystuff):
+
+%embed% https://youtu.be/ha2NRi0Jfag %%
+
 There is also an excellent video by [RSKT](https://www.youtube.com/@RSKT_music):
 
 %embed% https://www.youtube.com/watch?v=RN1DwAKuv4k %%
