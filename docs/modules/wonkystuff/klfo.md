@@ -2,12 +2,13 @@
 
 [[img|/modules/images/klfo.png|200]]
 
-* Module format: micro-module
-* Power consumption: ??mA
-
-[[https://wonkystuff.co.uk/k-lfo.html | View the shop page]]
+* [[https://wonkystuff.co.uk/k-lfo.html | Main shop page]]
+* [[https://lectronz.com/products/k-lfo | EU shop page]]
 
 ## Overview
+
+* Module format: micro-module
+* Power consumption: ??mA
 
 [filename](../../common/micro.md ':include')
 

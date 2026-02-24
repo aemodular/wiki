@@ -2,12 +2,13 @@
 
 [[img|modules/images/core1-ae.png|100]]
 
-* Module format: single-width, full height
-* Power consumption: 25mA
-
-[[https://wonkystuff.co.uk/core1-ae.html | View the shop page]]
+* [[https://wonkystuff.co.uk/core1-ae.html | Main shop page]]
+* [[https://lectronz.com/products/core1-ae-v2-0 | EU shop page]]
 
 ## Overview
+
+* Module format: single-width, full height
+* Power consumption: 25mA
 
 This is a programmable sound generator from Wonkystuff. The Core series are small, reprogrammable devices, based around a particularly limited microprocessor (as used by Bastl in their Kastle) having a mere 8kB of code space and 512 bytes of RAM! We find that with these limitations, some interesting algorithms can still be programmed and new and interesting sound generators and modulators can be constructed.
 

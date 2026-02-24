@@ -2,12 +2,13 @@
 
 [[img|/modules/images/kastle-arp.png|200]]
 
-* Module format: double-width, full height
-* Power consumption: ??mA
-
-[[https://wonkystuff.co.uk/kaestle-arp.html | View the shop page]]
+* [[https://wonkystuff.co.uk/kaestle-arp.html | Main shop page]]
+* [[https://lectronz.com/products/kaestle-arp | EU shop page]]
 
 ## Overview
+
+* Module format: double-width, full height
+* Power consumption: ??mA
 
 This module is a clone of the last addition to the well-known *Kastle* series of mini-modular synths from **[Bastl Instruments](https://bastl-instruments.com/)**, the melodic-generator "ARP".
 

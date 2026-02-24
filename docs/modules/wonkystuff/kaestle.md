@@ -2,12 +2,13 @@
 
 [[img|/modules/images/kastle.png|200]]
 
-* Module format: double-width, full height
-* Power consumption: ??mA
-
-[[https://wonkystuff.co.uk/kaestle.html | View the shop page]]
+* [[https://wonkystuff.co.uk/kaestle.html | Main shop page]]
+* [[https://lectronz.com/products/kaestle | EU shop page]]
 
 ## Overview
+
+* Module format: double-width, full height
+* Power consumption: ??mA
 
 This module is a clone of the original *Kastle* mini-modular drone/complex-oscillator synth from **[Bastl Instruments](https://bastl-instruments.com/)**.
 

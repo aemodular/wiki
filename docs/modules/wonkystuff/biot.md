@@ -2,16 +2,13 @@
 
 [[img|/modules/images/biot-wpanel.png|100]] [[img|/modules/images/biot-wpanel2.png|100]][[img|/modules/images/biot-bpanel.png|100]] [[img|/modules/images/biot-bpanel2.png|100]]
 
+* [[https://smallrocks.bandcamp.com/album/biot-touch-plate-demonstration-record | no longer available from Hot Air]]
+* [[https://wonkystuff.net/product/biot-kit/ | no longer available from wonkystuff]]
 
+## Overview
 
 * Module format: single-width, full height
 * Power consumption: 0mA (completely passive, no power connector)
-
-[[https://smallrocks.bandcamp.com/album/biot-touch-plate-demonstration-record | no longer available from Hot Air]]
-
-[[https://wonkystuff.net/product/biot-kit/ | no longer available from wonkystuff]]
-
-## Overview
 
 This is a simple touch plate module, a slightly jazzed up version of touching the ends of cables with your fingers! It works for both audio and CV signals, enabling the user to mix signals based on the conductivity of their own skin (signals get louder in times of stress!). It is great to add a bit of variation to any modulation as you move/press your finger (or whatever else you fancy running over the touch plates!); can be nice on filter cut off too.
 

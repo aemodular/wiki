@@ -2,12 +2,13 @@
 
 [[img|/modules/images/kastle-drum.png|200]]
 
-* Module format: double-width, full height
-* Power consumption: ??mA
-
-[[https://wonkystuff.co.uk/kaestle-drum.html | View the shop page]]
+* [[https://wonkystuff.co.uk/kaestle-drum.html | Main shop page]]
+* [[https://lectronz.com/products/kaestle-drum | EU shop page]]
 
 ## Overview
+
+* Module format: double-width, full height
+* Power consumption: ??mA
 
 This module is a clone of the *Kastle Drum* mini-modular 'patchable groovebox' from **[Bastl Instruments](https://bastl-instruments.com/)**.
 

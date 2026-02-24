@@ -2,13 +2,13 @@
 
 [[img|/modules/images/ktkt.png|100]] [[img|/modules/images/ktkt-og.png|100]]
 
-* Module format: single-width, full height
-* Power consumption: ??mA
-
-- [[https://wonkystuff.co.uk/ktkt.html | Main shop page]]
-- [[https://lectronz.com/products/ktkt | EU shop page]]
+* [[https://wonkystuff.co.uk/ktkt.html | Main shop page]]
+* [[https://lectronz.com/products/ktkt | EU shop page]]
 
 ## Overview
+
+* Module format: single-width, full height
+* Power consumption: ??mA
 
 Something for the more 'hands-on' users, this module contains a contact microphone mounted to the rear of the front panel, allowing scrapes and taps to control other parts of your system. Version 2 of the module added an external jack *high impedance input* is provided for external contact mics to be used instead of the internal mic (it also works for guitar!).
 

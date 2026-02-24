@@ -2,12 +2,13 @@
 
 [[img|/modules/images/env4.png|200]]
 
-* Module format: micro-module
-* Power consumption: ??mA
-
-[[https://wonkystuff.co.uk/env-4.html | View the shop page]]
+* [[https://wonkystuff.co.uk/env-4.html | Main shop page]]
+<!-- * [[https://lectronz.com/products/env4 | EU shop page]]-->
 
 ## Overview
+
+* Module format: micro-module
+* Power consumption: ??mA
 
 [filename](../../common/micro.md ':include')
 

@@ -2,12 +2,13 @@
 
 [[img|/modules/images/cvmx.png|100]]
 
-* Module format: single-width, full height
-* Power consumption: ??mA
-
-[[https://wonkystuff.co.uk/cvmx.html | View the shop page]]
+* [[https://wonkystuff.co.uk/cvmx.html | Main shop page]]
+* [[https://lectronz.com/products/cvmx | EU shop page]]
 
 ## Overview
+
+* Module format: single-width, full height
+* Power consumption: ??mA
 
 CVMx is a utility module allowing MIDI messages to be sent in response to incoming CV and/or gate/trigger signals. It's a really flexible module, and opens up possibilities like:
 
