@@ -2,12 +2,13 @@
 
 [[img|/modules/images/ur2r.png|200]]
 
-* Module format: micro-module
-* Power consumption: ??mA
-
-[[https://wonkystuff.co.uk/ur2r.html | View the shop page]]
+* [[https://wonkystuff.co.uk/ur2r.html | Main shop page]]
+* [[https://lectronz.com/products/ur2r | EU shop page]]
 
 ## Overview
+
+* Module format: micro-module
+* Power consumption: ??mA
 
 [filename](../../common/micro.md ':include')
 
