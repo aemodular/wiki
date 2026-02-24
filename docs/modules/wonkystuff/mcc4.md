@@ -36,6 +36,9 @@ This is summarised in this table:
 
 !> **Note**: Ordinarily, each output is scaled between 0-5v, however in the MIDI-CV mode, the 'Note CV' output is scaled between 0-4.096v for pitch accuracy, giving a range of C-0 (MIDI Note 24) to C4 (MIDI Note 72).
 
+
+[filename](../../common/imdi_gen.md ':include')
+
 ## Controls
 
 * Button:
@@ -46,7 +49,7 @@ This is summarised in this table:
 
 ### Inputs
 
-* **i** - the IMDI input - connect this to the channel output of an IMDI generator (e.g. [[/modules/wonkystuff/mb1 | mb/1]], [[/modules/tangiblewaves/imdi-heart | IMDI Heart]], [[/modules/wonkystuff/umdx | &mu;mdx]], [[/modules/wonkystuff/cvmx | CVMx]], [[/modules/wonkystuff/mimo | mi/mo]] etc.)
+* **i** - the IMDI input - connect this to the channel output of an IMDI generator as listed above.
 
 ### Outputs
 

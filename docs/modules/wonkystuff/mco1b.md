@@ -26,6 +26,8 @@ In *monophonic mode*, it uses last-note-priority, and remembers up to 8 held not
 
 In *polychain mode*, it will sound the first note that is seen, and ignore all subsequent notes until the first note is released. Notes which are ignored are forwarded through the ‘x’ output, allowing subsequent oscillators to consume these notes. This means theoretically that infinite polyphony is available, although physical limits rather prevent that!
 
+[filename](../../common/imdi_gen.md ':include')
+
 ## Controls
 
 * **tune** modifes the pitch for the purposes of tuning with other oscillators. Typically a user would send the same note to multiple oscillators and then tune them all to match; alternatively (of course) tuning could be against an external pitch source.
@@ -37,7 +39,7 @@ In *polychain mode*, it will sound the first note that is seen, and ignore all s
 
 ### Inputs
 
-* **i** - the IMDI input - connect this to the channel output of an IMDI generator (e.g. [[/modules/wonkystuff/mb1 | mb/1]], [[/modules/tangiblewaves/imdi-heart | IMDI Heart]], [[/modules/wonkystuff/umdx | &mu;mdx]], [[/modules/wonkystuff/cvmx | CVMx]], [[/modules/wonkystuff/mimo | mi/mo]] etc.)
+* **i** - the IMDI input - connect this to the channel output of an IMDI generator as listed above.
 
 ### Outputs
 
@@ -47,6 +49,13 @@ In *polychain mode*, it will sound the first note that is seen, and ignore all s
 * **t**: New-Note trigger: 5ms pulse when a new note is pressed;
 * **g**: Gate: +5v when a key is pressed; 0v otherwise.
 * **LED**: indicates MIDI activity, or 'Learn mode' status (see above)
+
+## Demo Video
+
+This is for the original *mco/1*, but the principle is the same:
+
+%embed% https://youtu.be/tX5hsa-9fTE %%
+
 
 ## MIDI Specification
 
