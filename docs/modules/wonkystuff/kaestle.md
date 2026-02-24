@@ -19,17 +19,18 @@ The module contains *six* different synthesis modes delivered in a classically l
 | **-**  | Noise A              | Noise B          |
 | **+**  | Track and Hold       | Formant          |
 
-
 As with all Kastle modules, sequence generation uses a 'rungler' algorithm which generates a pattern on the *STEPPED* output. This can be affected by input to the *BIT IN* input (see below).
 
 Full operating details can be found directly from [the Bastl website](https://bastl-instruments.com/instruments/kastle) (controls and connections are given the same names).
 
 ## Controls
 
-* **PITCH** Changes the pitch of the carrier oscillator (no effect in Formant synthesis);
+There are 2 knobs for each parameter; left and right. The value of a given parameter is the position of the right control *plus* a proportion of the input signal (controlled by the left knob).
+
+* **PITCH** Changes the pitch of the carrier oscillator (has no effect in Formant synthesis);
 * **TIMBRE** This is techinically mislabelled (like the original) in that it controls the pitch of a 2nd oscillator; what this oscillator does however, is "react" with the main one to create phase addition/cancellation, distortion and all sorts of other good stuff so is quite correct musically!
 * **SHAPE** This has two functions; the simple one is that it sets the pulse width of the **-n** out. The main purpose is to add/remove harmonics by changing the waveform of the main oscillator. This can vary from subtle to manic…
-* **LFO RATE** controls the speed of the Low Frequency Oscillator, which is great for varying vibrato, (pitch modulation), and many other parameters to make the sound more interesting, even bonkers!
+* **LFO RATE** controls the speed of the Low Frequency Oscillator, which is great for varying vibrato (pitch modulation) and many other parameters to make the sound more interesting, even bonkers!
 
 ## Connectivity
 
@@ -39,16 +40,16 @@ Outputs are distinguished by having a white border; inputs are borderless.
 
 ### Inputs
 
-* **PITCH** Adds a configurable amount of offset CV to the carrier oscillator;
-* **TIMBRE** Adds a configurable amount of offset CV to the modulator oscillator;
-* **SHAPE** Changes the amount of effect the modulating pitch has on the base oscillator;
-* **LFO RATE** Adds to the selected LFO speed.
-* **MODE** Changes the oscillator modes as described in the table above;
+* **PITCH** As above;
+* **TIMBRE** As above;
+* **SHAPE** As above;
+* **LFO RATE** As above;
+* **MODE** Changes the oscillator mode as described in the table above;
 * **BIT IN** Change the output of the sequence generated at the *STEPPED* output:
   * Disconnected: 16-step repeating pattern;
-  * '+': Random pattern;
   * '-': 8-step repeating pattern.
-* **LFO RST** A positive-going edge on this input will step the pattern output forward by one step, as well as resetting the triangle LFO output to it's start phase.
+  * '+': Random pattern;
+* **LFO RST** A positive-going edge on this input will step the pattern output forward by one step, as well as resetting the triangle LFO output to its start phase.
 
 ## Outputs
 
