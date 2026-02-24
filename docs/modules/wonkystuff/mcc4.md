@@ -50,6 +50,6 @@ This is summarised in this table:
 
 ### Outputs
 
-* **t *(left side)*** IMDI Thru - a buffered copy of the input data, to be connected to the IMDI input of a subsequent module.
-* **a-d** CV output as described in *Overview* above.
-* **LED** indicates MIDI activity, or 'Learn mode' status (see above)
+* **t** ***(left side)***: IMDI Thru - a buffered copy of the input data, to be connected to the IMDI input of a subsequent module.
+* **a-d**: CV output as described in *Overview* above.
+* **LED**: indicates MIDI activity, or 'Learn mode' status (see above)
