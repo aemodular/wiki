@@ -8,6 +8,7 @@
 [[https://wonkystuff.co.uk/kaestle-arp.html | View the shop page]]
 
 ## Overview
+
 This module is a clone of the last addition to the well-known *Kastle* series of mini-modular synths from **[Bastl Instruments](https://bastl-instruments.com/)**, the melodic-generator "ARP".
 
 As with all Kastle modules, pattern generation uses a 'rungler' algorithm which generates a pattern on the *PATTERN* output. This can be affected by input to the *FEED* input (see below).
@@ -28,6 +29,8 @@ Full operating details can be found directly from [the Bastl website](https://ba
 
 ## Controls
 
+There are 2 knobs for each parameter; left and right. The value of a given parameter is the position of the right control *plus* a proportion of the input signal (controlled by the left knob).
+
 * **NOTE** Chooses the base pitch of the oscillator;
 * **TIMBRE** Adds 'XOR Waveshaping' to the tone, from smooth tones to metallic overtones;
 * **DECAY** Adjust the decay of the tone, the further away from the 'centre', the longer the note sounds for. When turned left, new notes only sound
@@ -38,23 +41,23 @@ Full operating details can be found directly from [the Bastl website](https://ba
 
 Outputs are distinguished by having a white border; inputs are borderless.
 
-**Note**: Apart from the '+ -' pair, all horizontal groups of sockets are connected together, to be used as local 'multiples'.
+!> **Note**: Apart from the '**+** **-**' pair, all horizontal lines of sockets are connected together, to be used as local 'multiples'.
 
 ### Inputs
 
-* **NOTE** Adds a configurable amount of offset to the base pitch;
-* **TIMBRE** Adds a configurable amount of 'XOR Waveshaping' to the tone;
-* **DECAY** Adds a configurable amount to the base decay value;
-* **TEMPO** Adds to the selected LFO speed.
-* **CHORD** Changes the degree of the output pitches:
+* **NOTE** As above;
+* **TIMBRE** As above;
+* **DECAY** As above;
+* **TEMPO** As above;
+* **CHORD** Changes the *degree* of the output pitches:
   * Disconnected: Chord I;
-  * '+': Chord V;
-  * '-': Chord IV.
+  * Connected to '**-**': Chord IV.
+  * Connected to '**+**': Chord V;
 * **FEED** Change the output of the sequence generated at the *PATTERN* output:
   * Disconnected: 16-step repeating pattern;
-  * '+': Random pattern;
-  * '-': 8-step repeating pattern.
-* **CLK IN** A positive-going edge on this input will step the pattern output forward by one step, it has no effect on the other LFO outputs.
+  * Connected to '**-**': 8-step repeating pattern.
+  * Connected to '**+**': Random pattern;
+* **CLK IN** A positive-going edge on this input will step the pattern output forward by one step. If the LFO rate is low, then it has no effect on the other LFO outputs - for higher LFO rates, the LFO output is reset to its start phase.
 
 ### Outputs
 
@@ -65,3 +68,6 @@ Outputs are distinguished by having a white border; inputs are borderless.
 * **LFO** A triangle-wave LFO;
 * **PULSE** A square-wave LFO.
 
+# Further info
+
+!> Since the module is open-source, wonkystuff updates to the code can be found on the [wonkystuff github](https://github.com/wonkystuff/) (along with schematics for all of the k¶aelig;stle modules):

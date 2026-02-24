@@ -13,11 +13,11 @@ This module is a clone of the original *Kastle* mini-modular drone/complex-oscil
 
 The module contains *six* different synthesis modes delivered in a classically lo-fi manner. Two outputs exist (*OSC OUT* and *Secondary* - top-right of the module), and these produce the following combinations when *MODE* is connected as shown:
 
-| MODE connection | OSC OUT     | Secondary        |
-|--------|----------------------|------------------|
-| (none) | Frequency Modulation | Phase Distortion |
-| **-**  | Noise A              | Noise B          |
-| **+**  | Track and Hold       | Formant          |
+| MODE connection | OSC OUT              | Secondary        |
+|-----------------|----------------------|------------------|
+| (disconnected)  | Frequency Modulation | Phase Distortion |
+| **-**           | Noise A              | Noise B          |
+| **+**           | Track and Hold       | Formant          |
 
 As with all Kastle modules, sequence generation uses a 'rungler' algorithm which generates a pattern on the *STEPPED* output. This can be affected by input to the *BIT IN* input (see below).
 
@@ -36,7 +36,7 @@ There are 2 knobs for each parameter; left and right. The value of a given param
 
 Outputs are distinguished by having a white border; inputs are borderless.
 
-**Note**: Apart from the '+ -' pair, all horizontal groups of sockets are connected together, to be used as local 'multiples'.
+!> **Note**: Apart from the '**+** **-**' pair, all horizontal lines of sockets are connected together, to be used as local 'multiples'.
 
 ### Inputs
 
@@ -47,8 +47,8 @@ Outputs are distinguished by having a white border; inputs are borderless.
 * **MODE** Changes the oscillator mode as described in the table above;
 * **BIT IN** Change the output of the sequence generated at the *STEPPED* output:
   * Disconnected: 16-step repeating pattern;
-  * '-': 8-step repeating pattern.
-  * '+': Random pattern;
+  * Connected to '**-**': 8-step repeating pattern.
+  * Connected to '**+**': Random pattern;
 * **LFO RST** A positive-going edge on this input will step the pattern output forward by one step, as well as resetting the triangle LFO output to its start phase.
 
 ## Outputs
@@ -64,12 +64,12 @@ Outputs are distinguished by having a white border; inputs are borderless.
 
 The common AE "trick" of patching an output into another to mix them works well with the Kaestle.
 
-This is a deceptively powerful module, you may find the original's user manual helpful, and has a useful tips and tricks section as well. There is also a brief explnation of the various synthesis types available on this module, basically it is a must read!
+This is a deceptively powerful module; you may find the [original user manual](https://bastl-instruments.com/content/files/manual-kastle-v1.5.pdf) helpful — it has a useful tips and tricks section as well as a fuller explanation of the synthesis modes (basically it is a must read!)
 
-https://bastl-instruments.com/content/files/manual-kastle-v1.5.pdf
-
-There is also an excellent video by RSKT:-
+There is also an excellent video by [RSKT](https://www.youtube.com/@RSKT_music):
 
 %embed% https://www.youtube.com/watch?v=RN1DwAKuv4k %%
 
-Until this module, the only way to have CV control of an LFO was to use a regular oscillator and use a divider module to lower the resulting frequency.  This module makes that patch a  ot easier! Changing the frequency of the LFO using an Envelope is superb for making even basic sounds more interesting. Having a slower LFO, (or [[KeurslagerkurtSloth |Kurt's Sloth]]), control the frequency is excellent for subtle variations in sound, very nice on filter cutoff for instance.
+Until this module, the only way to have CV control of an LFO was to use a regular oscillator and use a divider module to lower the resulting frequency.  This module makes that patch a  ot easier! Changing the frequency of the LFO using an Envelope is superb for making even basic sounds more interesting. Modulating the frequency of the LFO (e.g. with [BF Synth Kurt's Sloth](modules/bfsynth/bfsynth_kurts-sloth.md)) is an excellent way to introduce subtle variations in the sound, very nice on filter cutoff for instance.
+
+!> Since the module is open-source, wonkystuff updates to the code can be found on the [wonkystuff github](https://github.com/wonkystuff/) (along with schematics for all of the k¶aelig;stle modules):

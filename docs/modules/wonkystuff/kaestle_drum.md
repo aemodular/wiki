@@ -1,73 +1,68 @@
-# wonkystuff k&aelig;stle drum
+# wonkystuff k&aelig;stle drum — clone of the Bastl Kastle Drum
 
 [[img|/modules/images/kastle-drum.png|200]]
 
+* Module format: double-width, full height
+* Power consumption: ??mA
+
 [[https://wonkystuff.co.uk/kaestle-drum.html | View the shop page]]
 
-This is Wonkystuff's take on the Bastl Instruments  [[https://bastl-instruments.com/instruments/kastle-drum/ | Kastle Drum]], re-engineered to fit the AE modular format.
+## Overview
 
+This module is a clone of the *Kastle Drum* mini-modular 'patchable groovebox' from **[Bastl Instruments](https://bastl-instruments.com/)**.
 
-Module power consumption: ? mA
+The module creates percussive sounds (*DRUMS* output) based on a mix of short samples and synthesis — all in the typically *Kastle* lo-fi manner! A secondary *NOISES* output produces some secondary percussion sounds derived from the main voice. There are 8 sounds in total, selected by the *DRUM* control. Some of the sounds have subtle variations which will depend upon the precise position of the *DRUM* control!
 
-## Inputs
+As with all Kastle modules, drum-pattern generation uses a 'rungler' algorithm which generates a pattern on the *PATTERN* output. This can be affected by input to the *FEED* input (see below).
 
-The WS Kaestledrum's inputs are located mostly on the left hand side of the module. They are 4 sets of 3 sockets by each knob those inputs affect,  a group of 4 on the lower right, and the top 2 of the other square of sockets.
-
-* **Drum** - row 3 sockets top left - These 3 inputs work in conjunction with the 2 Drum knobs as covered below. A signal above 3V here will trigger the drum synth.
-* **Pitch** - row 3 sockets, 2nd row down, left hand side - These 3 inputs work with the 2 Pitch controls as covered below. A signal above 3V here will trigger the **Noise** output.
-* **Decay** - row 3 sockets, 3rd row down, left hand side - These 3 inputs work with the 2 Decay knobs as covered below.
-* **Tempo** - row 3 sockets bottom left - These 3 inputs work with the 2 Tempo controls as covered below.
-
-* **Trig In**  -  top 2 sockets of square on right near the 2nd Pitch knob - The main envelope trigger for the drum synth and Noise output. These inputs are dynamic, i.e. a 0.5 to 2V pulse will trigger a quiet envelope. A 2-3.5V pulse will trigger a louder envelope and a 3.5 to 5V pulse will trigger the loudest envelope. These voltages are approximate. If you have 2 signals going into the inputs it is really easy to add accents/variation to your drum/noise sound. Excellent for Hi-hats....
-
-* **Feed** - Top 2 of 4 sockets square in lower right corner - This input controls the **Pattern** output of the LFO as shown below.
-* **CLK IN**  - Bottom 2 of 4 sockets square in lower right corner - A trigger pulse here resets the LFO to the highest point of the triangle wave so you can, in effect, create different LFO waveshapes. This also means any modulation the LFO is doing will be at the highest level and descend.
-
-## Outputs
-
-The WS Kaestledrum's outputs are not all located in the usual, top right hand side of the module. **They are all marked by having a white outline around them.**
-
-Group 6 sockets top right:-
-
-* **Drums** (3) - Main output of drum synth.
-* **Noises** (3) - noise/glitchy noise output, independent of the drum synth.
-
-The common AE trick of putting one output into the other to mix them together works well on the Kaestle Drum.
-
-Bottom 2 of 4 socket square below:-
-
-* **-** - a ground (0V).
-* **+** - a steady +4V which can be used to add to other CVs etc.
-
-Square of 9 sockets right side of module, **all are from the LFO**:-
-
-* **Pattern** - top row of 3 - These outputs generate 4, 8 or 16 pulses depending on the CV at the **Feed** input. If nothing is attached to the Feed input you get 8 pulses per LFO cycle. If a low signal/ground (e.g. **-**) is connected you get 4 pulses per LFO cycle. If a high signal (e.g. **+**) is connected you will get 16 pulses per LFO cycle. Switching between patterns will cause psudo-random pulses during the cross over.
-* **LFO** - middle row of 3 sockets - The regular LFO output, this is a triangle wave but it is variable by use of modulation (particularly **Tempo** or **CLK In**).
-* **CLK** - Bottom row of 3 - Pulse output of the LFO, for triggers etc.
+Full operating details can be found directly from [the Bastl website](https://bastl-instruments.com/instruments/kastle-drum) (controls and connections are given the same names).
 
 ## Controls
 
-There are 2 knobs for each parameter; left and right.  The left knob controls the signal level from the relevant input(s).
+There are 2 knobs for each parameter; left and right. The value of a given parameter is the position of the right control *plus* a proportion of the input signal (controlled by the left knob).
 
-The parameter value associated with the label, (Drum/Pitch/Decay/Tempo), consists of the position of the knob in the centre of the panel PLUS the signal from the inputs, whose level is set by the left side control.
+* **DRUM** There are 8 drum sounds in the Kaestle Drum, and this knob is how to move between them. Moving to another sound's "zone" triggers that sound. Thus, if you have a square wave CV you can switch between 2 sounds triggering them each time, a constant rising/falling CV could trigger all 8 sounds;
+* **PITCH** Controls the pitch of the drum sound, or the playback rate of the samples;
+* **DECAY** Sets the length of time the module will sound with each trigger. Note the centre (vertical) position is for the shortest envelope, and turn clockwise to get longer decay. Turning the knob anti-clockwise from the centre also increases the decay time, but also adds a downward pitch envelope;
+* **TEMPO** Sets the apparent speed of the rhythmic pattern. Thus subtle variations in tempo (or not subtle!) can be controlled with a CV and the left knob in this section. An external envelope can be quite fun!
 
-* **DRUM** -  There are 8 drum sounds in the Kaestle Drum, and this knob is how to move between them. Moving to another sound's "zone" triggers that sound. Thus, if you have a square wave CV you can switch between 2 sounds triggering them each time, a constant rising/falling CV could trigger all 8 sounds....
-* **Pitch** -  Sets the frequency/pitch of the selected drum sound(s).
-* **Decay** - Sets the length of time the module will sound with each trigger. Note the centre (vertical) position is for the shortest envelope, and turn clockwise to get longer decay. Turning the knob anti-clockwise from the centre  also increases the decay time, but also affects the pitch.
-* **Tempo** - Sets the apparent speed of the rhythmic pattern. Thus subtle variations in tempo (or not subtle!) can be controlled with a CV and the left knob in this section. An external envelope can be quite fun....
+## Connectivity
+
+Outputs are distinguished by having a white border; inputs are borderless.
+
+!> **Note**: Apart from the '**+** **-**' pair, all horizontal lines of sockets are connected together, to be used as local 'multiples'.
+
+### Inputs
+
+* **DRUM** As above;
+* **PITCH** As above;
+* **DECAY** As above;
+* **TEMPO** As above;
+* **TRIG IN** The main envelope trigger for the drum synth and Noise output. These inputs are dynamic, i.e. a 0.5 to 2V pulse will trigger a quiet envelope. A 2-3.5V pulse will trigger a louder envelope and a 3.5 to 5V pulse will trigger the loudest envelope. These voltages are approximate. If you have 2 signals going into the inputs it is really easy to add accents/variation to your drum/noise sound (Excellent for Hi-hats);
+* **FEED** Change the output of the sequence generated at the *STEPPED* output:
+  * Disconnected: 16-step repeating pattern;
+  * Connected to '**-**': 8-step repeating pattern.
+  * Connected to '**+**': Random pattern;
+* **CLK IN** A positive-going edge on this input will step the pattern output forward by one step. If the LFO rate is low, then it has no effect on the other LFO outputs - for higher LFO rates, the LFO output is reset to its start phase.
+
+### Outputs
+
+* **DRUMS** The main drum voice output;
+* **NOISES** A secondary voice, somehow derived from the main voice - but different/glitchy;
+* **- +** Fixed voltage outputs; *+* is connected to +5v (via an internal resistor); *-* is connected to ground;
+* **PATTERN** The stepped voltage output of the 'rungler' algorithm. The pattern is affected by the signal present on the *FEED* input;
+* **LFO** A triangle-wave LFO;
+* **PULSE** A square-wave LFO.
+
 
 ## Patch Suggestions
 
-If you find this module a bit mind blowing at first, you may find the original's user manual helpful. Most of the detail on this page came from this source.
+If you find this module a bit mind blowing at first, you may find the [original user manual](https://bastl-instruments.com/content/files/manual-kastle-drum-web.pdf) helpful — it has a bunch of internal info which might prove enlightening!
 
-https://bastl-instruments.com/content/files/manual-kastle-drum-web.pdf
-
-There is also an excellent video by RSKT:-
+There is also an excellent video by [RSKT](https://www.youtube.com/@RSKT_music):
 
 %embed% https://www.youtube.com/watch?v=RN1DwAKuv4k %%
 
-This module screams more than most to be patched with the rest of the AE; an external envelope on the tempo has been mentioned, the trigger could be manual, the Kaestle Drum's LFO or anything else. Use of LFOs to vary the sound can bring great rewards for instance, the attenuator Knobs on the left side of the module being really useful here. Very easy to descend into chaos however, :-)
+This module screams more than most to be patched with the rest of the AE; an external envelope on the tempo has been mentioned, the trigger could be manual, the Kaestle Drum's LFO or anything else. Use of LFOs to vary the sound can bring great rewards for instance, the attenuator Knobs on the left side of the module being really useful here (It is very easy to descend into chaos however!).
 
-If Wonkystuff ever upgrade the firmware, or provide different programming for the module, you will be able to find it here:-
-
-https://github.com/wonkystuff/kastle
+!> Since the module is open-source, wonkystuff updates to the code can be found on the [wonkystuff github](https://github.com/wonkystuff/) (along with schematics for all of the k¶aelig;stle modules):
