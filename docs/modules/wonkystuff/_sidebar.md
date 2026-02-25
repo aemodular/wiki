@@ -32,7 +32,7 @@
   * [pa/4 &mu;Module](/modules/wonkystuff/pa4.md)
   * [pgn/8 &mu;Module](/modules/wonkystuff/pgn8.md)
   * [playa &mu;Module](/modules/wonkystuff/playa.md)
-  * [qvca](/modules/wonkystuff/qvca.md)
+  * [qvca (disc)](/modules/wonkystuff/qvca.md)
   * [qvca v2](/modules/wonkystuff/qvca_2.md)
   * [rbss (disc)](/modules/wonkystuff/rbss.md)
   * [rbss/2](/modules/wonkystuff/rbss_2.md)
