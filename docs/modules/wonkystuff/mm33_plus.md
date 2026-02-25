@@ -9,7 +9,7 @@
 ## Overview
 
 * Module format: double-width, full height
-* Power consumption: ??mA
+* Power consumption: 2mA
 
 mm33+ is a 3x3 matrix mixer usable for both audio and CV signals. It's an updated version of the very first third-party module for AE Modular.
 

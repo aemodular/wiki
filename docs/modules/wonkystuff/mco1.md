@@ -3,7 +3,7 @@
 [[img|/modules/images/mco1.png|200]]
 
 * Module format: micro-module
-* Power consumption: ??mA
+* Power consumption: 18mA
 
 [[https://wonkystuff.net/mco1 | View the archive page]]
 

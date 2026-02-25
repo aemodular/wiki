@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: ??mA
+* Power consumption: 10mA
 
 A new version of the most popular wonkystuff module! The random bit-shift sequencer (rbss) — is a re-imagining of the well-established Turing Machine from Eurorack. It's a semi-predictable source of randomness in a single-width AEModular module.
 

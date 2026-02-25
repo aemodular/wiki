@@ -1,6 +1,9 @@
 # wonkystuff rbss
 [[img|modules/images/rbss.png|100]]
 
+* Module format: single-width, full height
+* Power consumption: 15mA
+
 The rbss (random bit-shift sequencer) module is inspired by the famous "Turing Machine" Eurorack module by Music Thing Modular which in turn was inspired by many previous shift-register sequence generators.
 
 When it is in stock, you can buy this module at [[https://wonkystuff.net/product/rbss/ | Wonkystuff]].

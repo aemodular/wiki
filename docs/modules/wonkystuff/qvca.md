@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: ??mA
+* Power consumption: 5mA
 
 This is quad VCA which is designed only for audio use (unlike the standard Tangible Waves [[2vca.md | 2VCA]] which can be applied to both audio and CV signals).
 

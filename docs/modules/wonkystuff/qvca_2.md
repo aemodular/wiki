@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: ??mA
+* Power consumption: 5mA
 
 This is a re-working of the orginal qvc with updated PCB routing and front panel. It's a quad VCA which is designed only for audio use (due to signal decoupling CV signals are not able to be used).
 

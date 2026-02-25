@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: ??mA
+* Power consumption: 3mA
 
 Something for the more 'hands-on' users, this module contains a contact microphone mounted to the rear of the front panel, allowing scrapes and taps to control other parts of your system. Version 2 of the module added an external jack *high impedance input* is provided for external contact mics to be used instead of the internal mic (it also works for guitar!).
 

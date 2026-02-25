@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: ??mA
+* Power consumption: 1mA
 
 The wonkystuff&reg; &mu;BaseLite is a minimal version of the UBASE from Tangible Waves — since none of the wonkystuff&reg; modules use the various bus signals available on the UBASE, they've done away with the switches and signal routing, just providing power to the attached modules.
 

@@ -2,12 +2,12 @@
 
 [[img|/modules/images/usr.png|200]]
 
-* Module format: micro-module
-* Power consumption: ??mA
-
 [[https://wonkystuff.net/product/msr-micromodule/ | View the archive page]]
 
 ## Overview
+
+* Module format: micro-module
+* Power consumption: &lt;1mA
 
 [filename](../../common/micro.md ':include')
 

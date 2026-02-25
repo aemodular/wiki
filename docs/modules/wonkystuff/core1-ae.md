@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: 25mA
+* Power consumption: 17mA
 
 This is a programmable sound generator from Wonkystuff. The Core series are small, reprogrammable devices, based around a particularly limited microprocessor (as used by Bastl in their Kastle) having a mere 8kB of code space and 512 bytes of RAM! We find that with these limitations, some interesting algorithms can still be programmed and new and interesting sound generators and modulators can be constructed.
 

@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: ??mA
+* Power consumption: 17mA
 
 CVMx is a utility module allowing MIDI messages to be sent in response to incoming CV and/or gate/trigger signals. It's a really flexible module, and opens up possibilities like:
 

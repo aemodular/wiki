@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: ??mA
+* Power consumption: 2mA
 
 Old-school, transformer-based Ring Modulator available as a kit (with, or without transformers) as well as fully-assembled. Transformers are standard 'Eagle' LT-44 (aka P631M) in case you are looking at the 'no-transformer kit'. The panel is double-sided (see images) in case you want a change of view.
 

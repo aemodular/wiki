@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: single-width, full height
-* Power consumption: ??mA
+* Power consumption: 20mA
 
 The beginning of the MIDI integration concept! This module consumes MIDI signals from any source via the TRS input and breaks out the channel data to its own output. In addition *System Real-Time* messages (e.g. clock signals) are given their own output pins for easy integration with existing clock-driven modules (e.g. drum-triggers, sequencers etc.).
 

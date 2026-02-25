@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: double-width, full height
-* Power consumption: ??mA
+* Power consumption: 25mA
 
 This module is a clone of the *Kastle Drum* mini-modular 'patchable groovebox' from **[Bastl Instruments](https://bastl-instruments.com/)**.
 

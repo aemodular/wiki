@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: double-width, full height
-* Power consumption: ??mA
+* Power consumption: 25mA
 
 This module is a clone of the last addition to the well-known *Kastle* series of mini-modular synths from **[Bastl Instruments](https://bastl-instruments.com/)**, the melodic-generator "ARP".
 

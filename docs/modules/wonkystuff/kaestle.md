@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: double-width, full height
-* Power consumption: ??mA
+* Power consumption: 25mA
 
 This module is a clone of the original *Kastle* mini-modular drone/complex-oscillator synth from **[Bastl Instruments](https://bastl-instruments.com/)**.
 

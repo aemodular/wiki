@@ -8,7 +8,7 @@
 ## Overview
 
 * Module format: micro-module
-* Power consumption: ??mA
+* Power consumption: 20mA
 
 ## Overview
 
