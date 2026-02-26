@@ -1,73 +1,17 @@
 .app-nav {
-    position: fixed;
-    background-color: var(--theme-color, #191919);
+    position: relative;
     width: 100%;
     margin: 0;
-    margin-right: 0 !important;
-    padding: 12px;
-    color: #ffffff;
-    transition: 0.2s;
-  }
-  
-  .app-nav li {
-    padding: 0;
-  }
-  
-  .app-nav p img:nth-child(1) {
-    width: 24px;
-    float: left;
-  }
-  
-  .app-nav p:nth-child(2) {
-    float: left;
-    font-weight: 600;
-    margin-left: 16px;
-  }
-  
-  .app-nav li ul {
-    color: #000000;
-  }
-  
-  .app-nav .badge {
-    min-width: 85px !important;
-    max-width: 85px;
-    float: right !important;
-    margin-left: 10px;
-  }
-  
-  .search input, .search .clear-button {
-    margin-top: 15%;
-  }
-  
-  section.cover img:first-child {
-    margin-top: 4%;
-  }
-  
-  .markdown-section h1 {
-    font-size: 2rem;
-    padding-top: 30px;
-    padding-bottom: 0.8rem;
-    margin: 0 !important;
-  }
-  .markdown-section h2 {
-    font-size: 1.75rem;
-    padding-top: 20px;
-    padding-bottom: 0.6rem;
-    margin: 0 !important;
-  }
-  .markdown-section h3 {
-    font-size: 1.5rem;
-    padding-top: 10px;
-    padding-bottom: 0.4rem;
-    margin: 0 !important;
-  }
-  
-  .markdown-section p {
-    margin: 0.5em 0
-  }
+    background-color: var(--base-color, #000);
+    color: var(--base-background-color, #fff);
+    padding: 0.5rem 0rem 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
 
-  @media screen and (max-width: 770px) {
-    .search input, .search .clear-button {
-      margin-top: 0%;
-    }
-  }
+#docsify-darklight-theme {
+    position: relative;
+    top: 1em;
+    left: 0em;
+}
