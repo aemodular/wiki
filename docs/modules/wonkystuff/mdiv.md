@@ -22,8 +22,6 @@ None. A web-based editor for clock division can be found here: [can be found her
 
 ## Connectivity
 
-<desc>
-
 ### Inputs
 
 * **i** - the IMDI input - connect this to the appropriate output of an IMDI generator (e.g. [[/modules/wonkystuff/mb1 | mb/1]], [[/modules/tangiblewaves/imdi-heart | IMDI Heart]], [[/modules/wonkystuff/umdx | &mu;mdx]], [[/modules/wonkystuff/cvmx | CVMx]], [[/modules/wonkystuff/mimo | mi/mo]] etc.)

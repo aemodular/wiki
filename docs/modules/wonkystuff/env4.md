@@ -21,8 +21,6 @@
 
 ## Connectivity
 
-<desc>
-
 ### Inputs
 
 * **t1-t4** Trigger inputs — more accurately *gate* inputs since the attack and sustain phases of the envelope run whilst these inputs are at a high level. Once the gate has been removed, the release phase will be entered.
