@@ -23,8 +23,6 @@ This is a programmable sound generator from Wonkystuff. The Core series are smal
 
 ## Connectivity
 
-<desc>
-
 ### Inputs
 
 * **cv-b** - CV control for the **b** parameter
