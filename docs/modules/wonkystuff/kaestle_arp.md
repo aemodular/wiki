@@ -71,4 +71,4 @@ Outputs are distinguished by having a white border; inputs are borderless.
 
 # Further info
 
-!> Since the module is open-source, wonkystuff updates to the code can be found on the [wonkystuff github](https://github.com/wonkystuff/) (along with schematics for all of the k¶aelig;stle modules):
+!> Since the module is open-source, wonkystuff updates to the code can be found on the [wonkystuff github](https://github.com/wonkystuff/) (along with schematics for all of the kaelig;stle modules):
