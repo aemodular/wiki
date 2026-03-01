@@ -31,6 +31,10 @@
       loadNavbar: true,
       loadFooter: true,
       auto2top: true,
+      alias: {
+        '/modules/': '/modules/', <!-- ensure that a bare /modules/ doesn't redirect to /modules/tangiblewaves/ -->
+        '/modules/([^\/\.]*)': '/modules/tangiblewaves/$1',
+      },
     };
   </script>
   <!-- Docsify v4 -->
