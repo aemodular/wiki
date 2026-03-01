@@ -50,6 +50,7 @@
 * [faux cyrillic LFO--](modules/fauxcyrillic/fauxcyrillic_lfo-minus-minus.md)
 * [faux cyrillic Pikocore](modules/fauxcyrillic/fauxcyrillic_pikocore.md)
 * [faux cyrillic Resistance Is Futile](modules/fauxcyrillic/fauxcyrillic_spatial-mixer.md)
+* [faux cyrillic Piqued](modules/fauxcyrillic/fauxcyrillic_piqued.md)
 * [FILTERBANK914](modules/tangiblewaves/filterbank.md)
 * [FMOS (disc.)](modules/tangiblewaves/fmos.md)
 * [FMOS R2](modules/tangiblewaves/fmos_r2.md)
