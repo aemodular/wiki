@@ -31,10 +31,7 @@
       loadNavbar: true,
       loadFooter: true,
       auto2top: true,
-      alias: {
-        '/modules/': '/modules/', <!-- ensure that a bare /modules/ doesn't redirect to /modules/tangiblewaves/ -->
-        '/modules/([^\/\.]*)': '/modules/tangiblewaves/$1',
-      },
+      notFoundPage: '_404.md',
     };
   </script>
   <!-- Docsify v4 -->
@@ -51,7 +48,6 @@
     src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/index.min.js"
     type="text/javascript">
   </script>
-
 </body>
 
 </html>
