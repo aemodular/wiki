@@ -2,7 +2,7 @@
 
 IMDI is the name given to the use of the MIDI protocol within AE Modular, allowing MIDI signals to be patched between compatible modules as easily as CV or audio signals - using single patch cables! First introduced by Wonkystuff with the [mb/1](/modules/wonkystuff/mb1.md) module in 2023, it has since been incorporated into the mainstream Tangible Waves modules giving us a *very* powerful way of controlling our systems!
 
-For an overview of MIDI integration, take a look here: [[IMDI]]
+For an overview of MIDI integration, [take a look here](/IMDI.md)
 
 ## Modules
 

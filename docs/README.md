@@ -1,8 +1,9 @@
 # AE Modular Wiki
 
+
 This is the Wiki for the AE Modular Synthesizer Format
 
-[[getting-started.md | Get Started]]
+[Getting Started](getting-started.md)
 
 [Module Documentation](/modules/)
 

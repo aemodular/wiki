@@ -1,8 +1,3 @@
-<!-- Logo -->
-<a href="#/" title="" class="active"><img src="logo.png" alt="AE Modular Logo"></a>
-
-<!-- Title -->
-AE Modular Wiki
-
+* [<img src="logo.png" height="50"/>](/)
 * [Modules](/modules/)
 * [Getting Started](/getting-started.md)
