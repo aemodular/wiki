@@ -1,26 +1,40 @@
 # AE Modular Technical Guide
 
-[[toc]]
+#### Table of contents
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=signals-on-the-bus-cable | Signals on the bus cable]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=modules | Module dimensions]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=pcb-control-elements-and-placement | PCB layout and standard component positioning]]
+  * [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=module-templates | Templates]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=dual-pcb-modules | Creating modules with two PCB layers]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=frontpanels | Frontpanel design notes]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=cases | Case options and dimensions]]
+  * [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=standard-tangible-waves-cases | Standard cases]]
+  * [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=quickswap-cases | Quickswap]]
+  * [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=3d-printed-cases | 3D printed cases]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=how-to-make-your-own-ribbon-cable | Making your own ribbon cable]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=making-your-own-patch-cables | Making your own patch cables]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=connectivity-and-power | Connectivity and power]]
+* [[https://wiki.aemodular.com/#/diy/aemodular-technical-guide?id=considerations-for-diy-modules | General considerations when designing modules]]
 
-AE Modular is a budget modular format, the lower cost makes it accessible to more users, but without reducing the sound quality, and retaining the flexibility and hands-on nature of more expensive modular formats.
+## About the AE Modular format
 
-To reduce costs its simplifies the requirements for building modules - using breadboard wires, and simpler potentiometers, and a simple 5V common voltage.
+AE Modular is a budget modular format, the lower cost makes it accessible to more users, but without reducing the sound quality, and retaining the flexibility and hands-on nature of more expensive modular formats. To reduce costs its simplifies the requirements for building modules - using breadboard wires, simpler potentiometers, and a simple 5V common voltage.
 
 This “simplification”, also means it is easy for users to build their own modules - there are many other DIY platforms that also use 5V including microcontrollers like Arduino / Atmel, ARM, etc.
 
-If you’ve never played with synth DIY its a perfect place to ‘give it a go’, try building a simple oscillator - see how it goes..
+If you’ve never played with synth DIY its a perfect place to ‘give it a go’, try building a simple oscillator - see how it goes...
 
-__DISCLAIMER:  This document is created in good faith, but I cannot accept any responsibility for damages caused by inaccurate/incorrect information. If you have questions please ask them on the forum or to tangible waves directly.__
+__DISCLAIMER:  This document is created in good faith, but I cannot accept any responsibility for damages caused by inaccurate/incorrect information. If you have questions please ask them on the [[https://forum.aemodular.com/forum | forum]] or contact Tangible Waves directly.__
 
 ## Signals on the Bus Cable
 
-All modules are connected with a 10-pin ribbon cable that runs below the modules. Each module is plugged onto this bus cable with a 10-pin connector.
+All modules are connected with a 10-pin ribbon cable that runs below the modules.* Each module is plugged onto this bus cable with a 10-pin connector.
 
-A master module is usually the source for this ribbon, supplying both power and control signals (derived from midi).
+A MASTER or POWER module is usually the source for this ribbon, supplying both power and control signals (derived from midi).
 
-The master module has 2 connectors for 2 separate ribbons. 
+*Apart from Quickswap cases, which are discussed later, and which don't use a traditional cable.
 
-[[img|https://www.tangiblewaves.com/uploads/2/6/6/8/26688354/bus-pinout_orig.png|400]]
+[[img|diy/images/bus-pinout_orig.png|400]]
 
 The top 4 pins are used for power.  The remaining 6 pins are all derived from MIDI by the master module.
 
@@ -30,9 +44,6 @@ __NOTE: the control signals should be considered as output only, since they are 
 
 __NOTE: All modules use the same 5V / Ground rail so modules need to take care not to induce a ripple voltage which can introduce noise.__
 
-## How to make your own ribbon cable
-
-You can of course make your own, it's really nothing special. Here is a general guide on how to make those: https://startingelectronics.org/articles/IDC-ribbon-cable/
 
 ## Signal voltage levels
 
@@ -41,31 +52,39 @@ AE Modular works entirely on +5V. For the several signal types this means the fo
 * Both CV and Audio are unipolar 5V, and are so interchangeable.
 * CV signals are 0..5V
 * Pitch is 1V/octave.  According to the calibration page on Tangible Waves:
-  * 1V = C1 = MIDI note 24 = 32.703 Hz
-    * (C0 vs C1 : different manufactures use different conventions for octave number, the midi spec simply states midi note (e.g 24) and the required frequency)
+  * 1V = C1 = MIDI note 24 = 32.703 Hz * 
   * 3V = C3 = MIDI note 48 = 130.81 Hz
 * Gate/triggers are 5V
 * Audio signals are  0..5V, centre around +2.5V  typically 3Vpp (so 1..4V), though this varies e.g pulse wave from oscillators are full range 5Vpp
 * Output impedance is ~1kOhm, so nothing bad happens if an output is connected to ground or two outputs are directly connected (in fact, they will be summed / mixed).
 
+*(C0 vs C1 : different manufacturers use different conventions for octave number, the MIDI spec simply states MIDI note (e.g 24) and the required frequency)
+
+
 ## Physical characteristics
 
-### Ribbon cable
-
-A  standard 10 pin ribbon cable is used, and folded, and has 16 connectors on it.
-
-The Type B cable has a longer distance to connect the master module, since it needs to go to the bottom row, so is an additional 100mm.
-
 ### Modules
-#### Module Dimensions
 
-Size of the modules (single unit) is 101mm h x 25mm w.  Wider modules are a multiple of 25.4mm (1”) minuses approx. 0.5mm gap tolerance
+#### Overall module dimensions
 
-PCB (single unit) is 100 x 25mm
+A standard 1U module measures 101mm high by 25mm wide (measuring the frontpanel). The underlying PCB should be slightly smaller, at 100mm high by 25mm wide.
 
-The standards case allows for a depth of 25mm, plus a 1.5 mm faceplate.
+__NOTE: Modules larger than 1U are measured as a multiple of 25.4mm (1”), minus approx. 0.5mm for gap tolerance.__
 
-A module is composed of
+It is preferable to keep the size of the component PCB at multiples of 25mm exactly, to allow a bit of wiggle room when installing it between between two other modules.
+
+__Some tried & tested frontpanel scalings for different module sizes:__
+
+* __1U__ - 101 x 25mm
+* __2U__ - 101 x 50.4mm
+* __3U__ - 101 x 75.6mm
+* __4U__ - 101 x 101.1mm
+
+
+The standard case allows for a total module depth of 25mm, plus a 1.5 mm faceplate.
+
+A typical module is composed of:
+
 * The front panel (thickness : 1.5mm)
 * Hex spacers M3 8mm high (female-male) between the front panel and PCB
 * PCB (thickness: 1.6mm)
@@ -74,95 +93,154 @@ A module is composed of
 [[img|diy/images/moduledimensions1.png|600]]
 [[img|diy/images/moduledimensions2.png|600]]
 
-The modules are mounted in a case/rack with M3 screws from the bottom (through the bottom plate).
+The modules are mounted in a case/rack with M3 screws from the bottom (through the bottom plate) unless a [[https://www.tangiblewaves.com/store/p202/AE_modular_QUICKSWAP_CASE_1-row.html | Quickswap]] case is used, in which case modules are held securely in place with the bus connector only.
 
 #### PCB - Control Elements and Placement
 
-On the top end of the module, there are two female pin headers (usually 8p.); left the module inputs, right the outputs.
+At the top of the module, there are two female pin headers (usually 1x8 pins); typically left is used for the module inputs, right for the outputs. Pins which are left unused in the module function are commonly tied together and used as passive 'mults' for sending one signal to multiple destinations (similar to how 'stackable' cables are used in Eurorack).
 
-The pin headers are 2,54mm grid (the usual Arduino type headers)
+The input and output pin headers used on current modules are custom made for Tangible Waves, and can be purchased directly from the [[https://www.tangiblewaves.com/store/p123/10_x_PATCH_SOCKETS.html | webstore.]] Alternatively you can use regular female receptables such as [[https://uk.farnell.com/multicomp-pro/2212s-08sg-85/conn-rcpt-8pos-1row-2-54mm/dp/1593463 | these]], which have a slightly more snug fit but work fine.
 
-Potentiometers are RK09 type, 20mm high. Typically no additional knobs, only the pot axis.
+Potentiometers are RK09 type, 20mm high. Typically no additional knobs, only the pot axis. In the UK, Thonk sell short trimmer pots which do a great job such as [[https://www.thonk.co.uk/shop/short-trimmer-pots/ | these from Song Huei]] or [[https://www.thonk.co.uk/shop/alpha-short-trimmers/ | Alpha trimmers.]] In the frontpanel, a hole with a radius of 3.6mm should give a comfortable fit.
 
-For connecting to the bus cable, each module has a 2x5 male pin header at the right bottom end of the module
+For connecting to the bus cable, each module has a 2x5 male pin header at the right bottom end of the module. 
+[[https://uk.farnell.com/molex/10-89-7102/conn-pin-hdr-10pos-2row-2-54mm/dp/2293829 | (Example connector)]]
 
-[[img|diy/images/pcbcontrols.png|300]]
+__NOTE: To ensure compatibility with the newer Quickswap cases (see more detail on these in the 'Cases' section below) it is crucial that the bus cable connector is located in a very precise position on the PCB.__
+
+Measured from the centre of the closest mounting hole, the leftmost row of five pins should be centred at a distance of __0.3125in (7.9375mm)__ to the right, and the bottom two pins should be __0.17in (4.318mm)__ higher than the centre of the mounting hole. Using these measurements will ensure a successful & snug connection in the Quickswap case.
+
+[[img|diy/images/quickswap-power-loc.png|400]]
+
+#### Module templates
+
+Forum user kir generated KiCAD templates for various sizes of module, which can be found [[https://github.com/farpoint-space/ae-modular-kicad-templates | here.]]
+
+Wonkystuff also created a [[https://oshwlab.com/wonkystuff/55bd_copy_copy | template for the 1/3 height Micromodule format.]]
+
+#### Dual-PCB modules
+
+For more advanced projects, or if attempting to squeeze more functions into a 1U module, you may wish to maximise the available vertical height by using two control PCBs in following configuration:
+
+Frontpanel ← gap (for components) ←  PCB ← gap (for components) ← second PCB ← bottom of case.
+
+Although space is at a premium in Tangible Waves cases, there is enough room for two PCBs to be used, with the lower PCB connected to the upper one with standard male>female pin headers (see example below)
+
+__NOTE: the bottom of the lower PCB will be almost in contact with the bottom of the case, so all components on this PCB must be top-facing.__
+
+[[img|diy/images/dual_layer_pcb.jpg|400]]
+
+The pin headers 'sandwich' the two boards together and also allow signals to be sent between them. When laying out your connections, don't forget that you will need to supply power and ground from the ribbon cable to both PCBs.
+
+Due to the power header and bus cable, plus additional considerations for the mechanics of Quickswap cases, the second PCB should not be bigger than __65mm__ vertically. Ideally it should be aligned so the 2nd PCB starts 9mm lower than the top of the main PCB (to avoid the upper standoff with a reasonable clearance).
 
 
 #### Front Panels
 
-* **Material**: 1.5mm MDF board, primed and sprayed with color, could be also Acrylic or aluminum...
-* **Marking/printing**: is made originally by a rubber stamp and special stamp color; any other options are possible of course.
+* **Material**: 1.5mm MDF board, primed and sprayed with color, acrylic or aluminum could also be used. In recent years Tangible Waves has switched to using frontpanels made from PCB material rather than MDF, in both black and white variants.
+* **Marking/printing**: originally made by a rubber stamp and special stamp color; now produced as a silkscreen on PCB.
 * **Mounting**: front panels are mounted with M3x4 screws, black, DIN912 cap screw with an inner hex
 
+**Some tricks for designing frontpanels using PCB material:**
 
-Ribbon connector example:
-https://uk.farnell.com/molex/10-89-7102/header-board-to-board-2row-10way/dp/2293829
+* You can create metallic text/designs by placing it on the copper layer, then duplicting the same text or design to the solder mask layer. This will expose the copper layer and produce metallic silver or gold text depending on the manufacturing method (HASL = silver, ENIG = gold)
+
+[[img|diy/images/top_layer.png|350]] [[img|diy/images/top_solder_layer.png|350]]
+[[img|diy/images/exposed_copper.jpg|700]]
 
 
-Headers example:
-https://uk.farnell.com/multicomp/2212s-08sg-85/socket-pcb-1-row-8way/dp/1593463
-e(these are a little bit short though)
 
-__NOTE: trimpots are placed on the underside of the module, with holes in the case base to allow for adjustment.__
+* To create a translucent 'shine through' area on the panel, place a shape/image/text on both the top and bottom solder mask layers in exactly the same location. After production, the exposed area will allow light to pass through, which can be used with an LED underneath to create glowing areas, as seen in a number of Wonkystuff modules such as the CoreAE:
 
-### Case
+[[img|diy/images/shinethrough.jpg|700]]
 
-The standard case has an internal dimension of 406.4mm  for 16 U.
-There are currently two variants: one- or two-row.
-The two-row has a ‘wall’ between the top and bottom row, this provided extra stability.
-This ‘wall’ has an opening to allow for the lower ribbon cable (type B) to pass from the master module to the lower modules.
+### Cases
+
+#### Standard Tangible Waves cases
+
+The standard case has an internal dimension of 406.4mm  (for 16U).
+
+There are several variants currently available: one- or two-row in various widths (12U, 16U, 20U), plus a four-row "Monstacase" and the Korg Volca-sized V-CASE7.
+
+The two-row has a ‘wall’ between the top and bottom row, this provides extra stability.
+This horizontal ‘wall’ has an opening to allow for a vertical wall to pass through which shares the bus cable connections between rows.
 
 To allow for mounting, each row of the case has a series of holes 25.4mm apart for the top and bottom of the module. 
 Additionally, at the left-hand side of the case, there are additional holes in the bottom that align with the tuning trimpots of the 2OSC and VCO modules.
 
-Finally, a hole is situated at the top of the left hand ‘end cheek’ of the case to allow for the DC jack of the master module.
+Original cases featured a hole situated at the top of the left hand ‘end cheek’ of the case to allow for the DC jack of the master module. More recently the MASTER and POWER modules use a vertical DC jack.
 
-__NOTE:  From the ‘holes’ in the case, you can see there is a notional position for the master module and some oscillators modules.__
+__NOTE:  From the ‘holes’ in the rear of the case, you can see there is a notional position for the master module and some oscillator modules so that their trimpots are easily accessible.__
 
 #### Module Mounting
 
-The modules are standing on metal PCB standoffs , as can be seen here:
+AE modules are mounted on metal PCB standoffs. Unlike in Eurorack, where modules are secured to a 'rail' using screws through the frontpanel, AE modules are secured from the rear using screws which go through the bottom of the case into the standoffs. The hex screws on the front of the module are only used to hold the frontpanel on, and don't need to be unscrewed in order to remove a module from the case.
 
-[[img|diy/images/modulemounting1.png|400]]
-[[img|diy/images/modulemounting2.png|400]]
+__NOTE: because of this rear-mounting format, some of the ‘stability’, especially for 1U modules, is provided by other modules sitting next to them and the case perimeter. (Less so with 2U+ modules, since they use 4 standoffs)__
 
-The module is secured then by screws which goes through the case bottom.
-Therefore, it should be noted that some of the ‘stability’, esp for 1U modules, is provided by other modules sitting next to them and the case perimeter. (less so with 2+ Units, since they use 4 posts)
+#### Quickswap cases
+
+The new [[https://www.tangiblewaves.com/store/p202/AE_modular_QUICKSWAP_CASE_1-row.html | Quickswap]] case format was developed by Kyaa and is now produced officially by Tangible Waves! It offers the advantage of quick and easy module changes - instead of a floating ribbon cable, the case uses a PCB-based header strip which holds modules firmly in place using just the power connector; no screws required.
+
+The lack of a ribbon cable does mean that when designing modules, it is crucial that the placement of the power header is in __exactly__ the correct position in order for it to be 'Quickswap compatible', as discussed above.
+
+Official Quickswap template dimensions:
+
+[[img|diy/images/quickswap-dimensions.png|700]]
+
+Because the Quickswap cases feature additional mechanical components to secure modules, you should be cautious when placing components at the extreme upper or lower end of a module. The following image demonstrates the available vertical space in each area:
+
+[[img|diy/images/KeepoutZones.png|500]]
+
+#### 3D printed cases
+
+Forum user georgemuralkh created a series of templates for 3D-printable cases of various sizes, as well as connectors/stands and handles.
+
+You can find all the .STL files on [[https://www.printables.com/model/691273-ae-modular-case-system | Printables]], and see the [[https://forum.aemodular.com/thread/2968/3d-printed-cases-update-1 | forum thread]] with examples of printed cases.
+
+### How to make your own ribbon cable
+
+You can of course make your own, it's really nothing special. Here is a general guide on how to make those: https://startingelectronics.org/articles/IDC-ribbon-cable/
+
+A standard 10 pin ribbon cable is used, and folded, and has 16 connectors on it.
+
+### Making your own patch cables
+
+The patch cables sold by Tangible Waves are specific to the AE format and specially made. It is highly recommended __not__ to use typical cheap 'breadboard' patch wires with AE modules. The sharp edges of the pin can catch on the inside of sockets and damage them.
+
+There is some discussion on the forum [[https://forum.aemodular.com/thread/1487/diy-cables-male-connector | here]] about ways to make suitable DIY cables.
 
 ## Connectivity and Power
 
-The master module is an important element in an AEM system, since it interfaces to the outside world, so it is worthy of further discussion.
+The MASTER module is an important element in an AEM system, since it interfaces to the outside world, so it is worthy of further discussion.
 
 ### Power
 
-The [[modules/master.md|MASTER]] module supplies the regulated 5V from one of 2 sources:
+The [[#/modules/tangiblewaves/master.md|MASTER]] module supplies the regulated 5V from one of 2 sources:
 * DC Jack with 9V DC, positive centre, minimum 1 amp.
 * Eurorack via the Eurorack connector (+12V, or 5V?)  
 
-The Master module (and the smaller 1U Power module) can supply up to 800mA without any problems. This is more than sufficient for 4 full width rows.
+The MASTER module (and the smaller 1U POWER module) can supply up to 800mA without any problems. This is usually more than sufficient for 4 full width rows, unless you have a lot of heavy digital modules.
 
-__(check: max current consider, only PSU, or also regulator ?)__
+<!-- (check: max current consider, only PSU, or also regulator ?) -->
 
 ### I/O
 
-* **AUD.1|2** - audio input or output
-* **CTRL 1|2**  - cv input or output
+* **AUD.1|2** - Audio input or output
+* **CTRL 1|2**  - CV input or output
 * **BUS CV (2)** -  MIDI note on/off pitch (v/oct)
 * **BUS GATE** - MIDI on/off 
 * **BUS CTRL** - MIDI cc 20 
 
 ### Audio Interface
 
-There are two audio I/O 3.5mm sockets.
+There are two audio I/O 3.5mm sockets, both of which are bi-directional, so can be used either as input or output.
 
-These are both bi-directional, so can be used either as input or output.
+Input signals should be at line level, __do not connect Eurorack signals directly to AE through the MASTER or POWER modules.__
 
-The input and output can be up to 5Vpp, outside this it will be clipped.
-
-__(check: DC coupled?)__
+<!-- __(check: DC coupled?)__
 __(check: additional filtering?)__
-__(check: Vpp , I thought it's not 5Vpp, but much lower 3Vpp?)__
+__(check: Vpp , I thought it's not 5Vpp, but much lower 3Vpp?)__ -->
 
 ### CV Interface
 
@@ -173,7 +251,7 @@ The input and output can be up to 5Vpp, outside this it will be clipped.
 The primary difference between this and the audio IO is these are DC coupled.
 You can use the CV I/O for audio input too.
 
-__(check: does a bipolar/audio get offset to 2.5V)__
+<!-- __(check: does a bipolar/audio get offset to 2.5V)__ -->
 
 ### Midi Interface
 
@@ -187,7 +265,7 @@ The following midi messages are understood:
 * MIDI Transport start-> Bus START
 * MIDI Transport stop-> Bus STOP
 
-All these signals are present on the bus ribbon, even though CV, GATE and CTRL are the only ones present on the master IO header. (CTRL is present on v2+) 
+All these signals are present on the bus ribbon, even though CV, GATE and CTRL are the only ones present on the master IO header. (CTRL is present on MASTER v2+) 
 
 ### Racklink module
 
@@ -296,8 +374,10 @@ The easiest thing to use as a starting point is a blank panel, as it gives you t
 The headers and drill points for mounting are very close to the edge on the factory modules. 
 
 Getting the faceplate at the same levels is a challenge.
-The general idea, as used by tangible waves is a sandwich 
+The general idea, as used by Tangible Waves is a sandwich 
 
-Faceplace ← gap (for components) ←  pcb ← gap (for ribbon header) ← bottom of case.
+Frontpanel ← gap (for components) ←  pcb ← gap (for ribbon header) ← bottom of case.
 
 Of course you can use variations of this, in particular you may find your PCB or faceplate material is thicker. The factory modules, allows for a 2mm thick pcb/ 1.5mm faceplate, but if you use 3mm then you will need to reduce the size to the lower hex spacer (aka standoff).
+
+

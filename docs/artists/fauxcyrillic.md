@@ -9,7 +9,7 @@ Interested in big sounds and little sounds. Thanks to AE Modular and the communi
 Musically I'm particularly interested in ambient and generative work, but sometimes you just need to turn it up and get loud....  
 
 ## Links
-* https://crangle.page/
+* [[https://fauxcyrillic.neocities.org/ | Homepage]]
 * [[https://www.youtube.com/@fauxcyrillic9638 | YouTube]]
 * [[https://www.instagram.com/fauxcyrillic_modular/ | Instagram]]
  
